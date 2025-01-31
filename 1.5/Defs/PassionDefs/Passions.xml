@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+   <!-- <VSE.Passions.PassionDef>
+        <defName>None</defName>
+        <label>none</label>
+        <description>no passion</description>
+        <learnRateFactor>0.35</learnRateFactor>
+        <isBad>true</isBad>
+        <commonality>0</commonality>
+        <inspirationCommonality>1</inspirationCommonality>
+        <iconPath>Things/Mote/Transparent</iconPath>
+    </VSE.Passions.PassionDef>
+    <VSE.Passions.PassionDef>
+        <defName>Minor</defName>
+        <label>interested</label>
+        <description>minor passion</description>
+        <learnRateFactor>1</learnRateFactor>
+        <commonality>1.5</commonality>
+        <inspirationCommonality>2.5</inspirationCommonality>
+        <iconPath>Passions/PassionMinor</iconPath>
+        <workBoxIconPath>UI/Icons/PassionMinorGray</workBoxIconPath>
+        <indicatorString>★</indicatorString>
+        <color>Minor</color>
+    </VSE.Passions.PassionDef>
+    <VSE.Passions.PassionDef>
+        <defName>Major</defName>
+        <label>burning</label>
+        <description>major passion</description>
+        <learnRateFactor>1.5</learnRateFactor>
+        <inspirationCommonality>5</inspirationCommonality>
+        <iconPath>Passions/PassionMajor</iconPath>
+        <workBoxIconPath>UI/Icons/PassionMajorGray</workBoxIconPath>
+        <indicatorString>★★</indicatorString>
+        <color>Major</color>
+    </VSE.Passions.PassionDef>
+    <VSE.Passions.PassionDef>
+        <defName>VSE_Apathy</defName>
+        <label>apathy</label>
+        <description>no interest in this skill</description>
+        <learnRateFactor>0.25</learnRateFactor>
+        <forgetRateFactor>1.25</forgetRateFactor>
+        <isBad>true</isBad>
+        <commonality>0.5</commonality> 
+        <inspirationCommonality>0.1</inspirationCommonality>
+        <iconPath>Passions/PassionApathy</iconPath>
+        <indicatorString>Ø</indicatorString>
+        <color>Disabled</color>
+    </VSE.Passions.PassionDef>
+    <VSE.Passions.PassionDef>
+        <defName>VSE_Natural</defName>
+        <label>natural</label>
+        <description>Naturally good at this skill. However, this means they won’t keep up their practice.</description>
+        <learnRateFactor>2</learnRateFactor>
+        <forgetRateFactor>3</forgetRateFactor>
+        <commonality>0.5</commonality>
+        <inspirationCommonality>7.5</inspirationCommonality>
+        <iconPath>Passions/PassionNatural</iconPath>
+        <workBoxIconPath>Passions/PassionNaturalGrey</workBoxIconPath>
+        <indicatorString>☆</indicatorString>
+        <color>Minor</color>
+    </VSE.Passions.PassionDef>-->
+    <VSE.Passions.PassionDef>
+        <defName>AS_DrunkenPassion</defName>
+        <label>drunken</label>
+        <description>This skill is extremely important. This person will get extra learning of this skill when drunk.</description>
+        <learnRateFactor>1.5</learnRateFactor>     
+        <commonality>0.05</commonality>
+        <inspirationCommonality>5</inspirationCommonality>
+        <iconPath>Passions/AS_DrunkenPassion</iconPath>
+        <workBoxIconPath>Passions/AS_DrunkenPassionGrey</workBoxIconPath>
+        <indicatorString>♣♣</indicatorString>
+        <color>Major</color>
+		<blockingTraitsWithDegree>
+			<DrugDesire>-1</DrugDesire>
+		</blockingTraitsWithDegree>
+    </VSE.Passions.PassionDef>
+	 <VSE.Passions.PassionDef>
+        <defName>AS_FrozenPassion</defName>
+        <label>frozen</label>
+        <description>This skill was once important to this person, but they have lost all passion in it. They won't be able to learn anymore, but they won't also forget what they have learned.</description>
+        <learnRateFactor>0</learnRateFactor>
+        <forgetRateFactor>0</forgetRateFactor>
+        <isBad>true</isBad>
+        <commonality>0.05</commonality> 
+        <inspirationCommonality>0</inspirationCommonality>
+        <iconPath>Passions/AS_FrozenPassion</iconPath>
+        <indicatorString>⚪︎</indicatorString>
+        <color>Disabled</color>
+    </VSE.Passions.PassionDef>
+</Defs>
