@@ -24,9 +24,7 @@ namespace AlphaSkills
             {
                 __result *= 4;
             }
-                
            
-
 
         }
 
