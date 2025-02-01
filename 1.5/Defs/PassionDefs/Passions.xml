@@ -84,7 +84,7 @@
         <commonality>0.05</commonality> 
         <inspirationCommonality>0</inspirationCommonality>
         <iconPath>Passions/AS_FrozenPassion</iconPath>
-        <indicatorString>⚪︎</indicatorString>
+        <indicatorString>✬</indicatorString>
         <color>Disabled</color>
     </VSE.Passions.PassionDef>
 </Defs>

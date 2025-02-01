@@ -309,7 +309,6 @@
     <Compile Include="DefOf\InternalDefOf.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\SkillRecord_LearnRateFactor.cs" />
-    <Compile Include="Harmony\SkillUI_GetSkillDescription.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WorldComponents\WorldComponent_DrunkenPassion.cs" />
   </ItemGroup>
