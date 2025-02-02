@@ -18,7 +18,7 @@ namespace AlphaSkills
 
             if (this.parent.pawn.IsHashIntervalTick(60000))
             {
-                if (this.parent.pawn.ageTracker.AgeBiologicalYears >= 14)
+                if (this.parent.pawn.ageTracker.AgeBiologicalYears >= 20)
                 {
                     foreach (SkillRecord skill in parent.pawn.skills.skills)
                     {

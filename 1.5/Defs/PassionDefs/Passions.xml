@@ -149,7 +149,7 @@
         <label>youth</label>
         <description>This skill is very important to this person, but the interest will fade with age, turning into a regular interest when turning 20.</description>
         <learnRateFactor>3</learnRateFactor>     
-        <commonality>0.05</commonality>
+        <commonality>0.5</commonality>
         <inspirationCommonality>7.5</inspirationCommonality>
         <iconPath>Passions/AS_YouthPassion</iconPath>
         <workBoxIconPath>Passions/AS_YouthPassionGrey</workBoxIconPath>
