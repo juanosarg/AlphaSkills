@@ -74,6 +74,21 @@
 			<DrugDesire>-1</DrugDesire>
 		</blockingTraitsWithDegree>
     </VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+        <defName>AS_DrunkenPassion_Active</defName>
+        <label>drunken (active)</label>
+        <description>This skill is extremely important. This person will get extra learning of this skill when drunk. This person is drunk right now.</description>
+        <learnRateFactor>2.5</learnRateFactor>     
+        <commonality>0</commonality>
+        <inspirationCommonality>5</inspirationCommonality>
+        <iconPath>Passions/AS_DrunkenPassion</iconPath>
+        <workBoxIconPath>Passions/AS_DrunkenPassionGrey</workBoxIconPath>
+        <indicatorString>♣♣</indicatorString>
+        <color>Major</color>
+		<blockingTraitsWithDegree>
+			<DrugDesire>-1</DrugDesire>
+		</blockingTraitsWithDegree>
+    </VSE.Passions.PassionDef>
 	 <VSE.Passions.PassionDef>
         <defName>AS_FrozenPassion</defName>
         <label>frozen</label>
@@ -87,4 +102,62 @@
         <indicatorString>✬</indicatorString>
         <color>Disabled</color>
     </VSE.Passions.PassionDef>
+	 <VSE.Passions.PassionDef>
+        <defName>AS_SynergisticPassion</defName>
+        <label>synergistic</label>
+        <description>Enthusiasm in learning this skill has enticed this person to be more open to learning other different skills.</description>
+        <learnRateFactor>1</learnRateFactor>
+        <learnRateFactorOther>1.1</learnRateFactorOther>
+        <forgetRateFactor>1</forgetRateFactor>
+        <commonality>0.05</commonality>
+        <inspirationCommonality>5</inspirationCommonality>
+        <iconPath>Passions/AS_SynergisticPassion</iconPath>
+        <workBoxIconPath>Passions/AS_SynergisticPassionGrey</workBoxIconPath>
+        <indicatorString>✥✥</indicatorString>
+		
+        <color>Major</color>
+    </VSE.Passions.PassionDef>
+	 <VSE.Passions.PassionDef>
+        <defName>AS_NightPassion</defName>
+        <label>night</label>
+        <description>This person acts as a night owl when considering this skill. They will get extra learning of the skill during the night (20 PM to 5 AM).</description>
+        <learnRateFactor>1.5</learnRateFactor>     
+        <commonality>0.05</commonality>
+        <inspirationCommonality>5</inspirationCommonality>
+        <iconPath>Passions/AS_NightPassion</iconPath>
+        <workBoxIconPath>Passions/AS_NightPassionGrey</workBoxIconPath>
+        <indicatorString>☾☾</indicatorString>
+		<hediffToAdd>AS_NightPassion</hediffToAdd>
+        <color>Major</color>
+		
+    </VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+        <defName>AS_NightPassion_Active</defName>
+        <label>night (active)</label>
+        <description>This person acts as a night owl when considering this skill. They will get extra learning of the skill during the night (20 PM to 5 AM). It is nighttime right now.</description>
+        <learnRateFactor>2.5</learnRateFactor>     
+        <commonality>0</commonality>
+        <inspirationCommonality>5</inspirationCommonality>
+         <iconPath>Passions/AS_NightPassion</iconPath>
+        <workBoxIconPath>Passions/AS_NightPassionGrey</workBoxIconPath>
+        <indicatorString>☾☾</indicatorString>
+        <color>Major</color>
+		
+    </VSE.Passions.PassionDef>
+	 <VSE.Passions.PassionDef>
+        <defName>AS_YouthPassion</defName>
+        <label>youth</label>
+        <description>This skill is very important to this person, but the interest will fade with age, turning into a regular interest when turning 20.</description>
+        <learnRateFactor>3</learnRateFactor>     
+        <commonality>0.05</commonality>
+        <inspirationCommonality>7.5</inspirationCommonality>
+        <iconPath>Passions/AS_YouthPassion</iconPath>
+        <workBoxIconPath>Passions/AS_YouthPassionGrey</workBoxIconPath>
+        <indicatorString>▲▲</indicatorString>
+		<hediffToAdd>AS_YouthPassion</hediffToAdd>
+		<maxAge>20</maxAge>
+        <color>Major</color>
+		
+    </VSE.Passions.PassionDef>
+	
 </Defs>

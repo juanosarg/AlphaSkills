@@ -18,12 +18,12 @@ namespace AlphaSkills
         public static void ModifyLearnFactor(SkillRecord __instance, ref float __result)
         {
 
-            if (WorldComponent_DrunkenPassion.Instance.drunkenPassionPawns.ContainsKey(__instance.Pawn)
+            /*if (WorldComponent_DrunkenPassion.Instance.drunkenPassionPawns.ContainsKey(__instance.Pawn)
                 && WorldComponent_DrunkenPassion.Instance.drunkenPassionPawns[__instance.Pawn] ==__instance.def
                 )
             {
                 __result *= 4;
-            }
+            }*/
            
 
         }

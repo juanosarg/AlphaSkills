@@ -309,9 +309,16 @@
     <Compile Include="DefOf\InternalDefOf.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\SkillRecord_LearnRateFactor.cs" />
+    <Compile Include="HediffComps\HediffComp_DrunkPassions.cs" />
+    <Compile Include="HediffComps\HediffComp_NightPassion.cs" />
+    <Compile Include="HediffComps\HediffComp_YouthPassion.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_NightPassion.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_DrunkPassions.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_YouthPassion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WorldComponents\WorldComponent_DrunkenPassion.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="WorldComponents\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
