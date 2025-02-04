@@ -14,8 +14,25 @@ namespace AlphaSkills
         public static VSE.Passions.PassionDef AS_NightPassion;
         public static VSE.Passions.PassionDef AS_NightPassion_Active;
 
+        [MayRequireBiotech]
+        public static VSE.Passions.PassionDef AS_SanguinePassion;
+        [MayRequireBiotech]
+        public static VSE.Passions.PassionDef AS_SanguinePassion_Active;
+
+        [MayRequireBiotech]
+        public static VSE.Passions.PassionDef AS_ToxicPassion;
+        [MayRequireBiotech]
+        public static VSE.Passions.PassionDef AS_ToxicPassion_Active;
+
         public static VSE.Passions.PassionDef AS_YouthPassion;
 
+        [MayRequireIdeology]
+        public static VSE.Passions.PassionDef AS_PainDrivenPassion;
+        [MayRequireIdeology]
+        public static VSE.Passions.PassionDef AS_PainDrivenPassion_Active;
+
+        [MayRequireBiotech]
+        public static GeneDef PollutionRush;
 
         static InternalDefOf()
         {

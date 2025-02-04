@@ -14,7 +14,7 @@ namespace AlphaSkills
         {
             base.CompPostTick(ref severityAdjustment);
 
-            if (this.parent.pawn.IsHashIntervalTick(1000))
+            if (this.parent.pawn.IsHashIntervalTick(1000) && this.parent.pawn.Spawned)
             {
                 if((GenLocalDate.HourInteger(this.parent.pawn) >= 20 || GenLocalDate.HourInteger(this.parent.pawn) <= 5))
                 {
@@ -23,7 +23,7 @@ namespace AlphaSkills
                         if (skill.passion == (Passion)InternalDefOf.AS_NightPassion.index)
                         {
                             skill.passion = (Passion)InternalDefOf.AS_NightPassion_Active.index;
-                            DebugActionsUtility.DustPuffFrom(parent.pawn);
+                           
                         }
 
                     }
@@ -37,7 +37,7 @@ namespace AlphaSkills
                         if (skill.passion == (Passion)InternalDefOf.AS_NightPassion_Active.index)
                         {
                             skill.passion = (Passion)InternalDefOf.AS_NightPassion.index;
-                            DebugActionsUtility.DustPuffFrom(parent.pawn);
+                          
                         }
 
                     }

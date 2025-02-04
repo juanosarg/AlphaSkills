@@ -6,6 +6,7 @@
 		<makesSickThought>false</makesSickThought>
 		<description>This hediff handles the pawn having a night passion. It should be hidden to the player.</description>
 		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<isBad>false</isBad>
 		<defaultLabelColor>(92,62,198)</defaultLabelColor>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -29,6 +30,7 @@
 		<makesSickThought>false</makesSickThought>
 		<description>This hediff handles the pawn having a youth passion. It should be hidden to the player.</description>
 		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<isBad>false</isBad>
 		<defaultLabelColor>(92,62,198)</defaultLabelColor>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -36,6 +38,75 @@
 		<maxSeverity>1.0</maxSeverity>
 		<comps>
 			<li Class="AlphaSkills.HediffCompProperties_YouthPassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AS_SanguinePassion</defName>
+		<label>sanguine passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having a sanguine passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_SanguinePassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AS_ToxicPassion</defName>
+		<label>toxic passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having a toxic passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_ToxicPassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AS_PainDrivenPassion</defName>
+		<label>pain-driven passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having a pain-driven passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_PainDrivenPassion">
 				
 			</li>
 		</comps>

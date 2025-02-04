@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+ 
+	
+	 <VSE.Passions.PassionDef>
+        <defName>AS_PainDrivenPassion</defName>
+        <label>pain-driven</label>
+        <description>This passion is fueled by pain. They learn faster when suffering from injuries or chronic pain (pain above 30%).</description>
+        <learnRateFactor>1</learnRateFactor>
+		<commonality>0.5</commonality>
+		<inspirationCommonality>3.5</inspirationCommonality>
+        <iconPath>Passions/AS_PainDrivenPassionGrey</iconPath>
+        <workBoxIconPath>UI/Icons/AS_PainDrivenPassionGrey</workBoxIconPath>
+        <indicatorString>✹✹</indicatorString>
+        <color>Minor</color>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+		<requiredPrecepts><li>Pain_Idealized</li></requiredPrecepts>
+		<hediffToAdd>AS_PainDrivenPassion</hediffToAdd>
+    </VSE.Passions.PassionDef>
+	 <VSE.Passions.PassionDef>
+          <defName>AS_PainDrivenPassion_Active</defName>
+        <label>pain-driven</label>
+        <description>This passion is fueled by pain. They learn faster when suffering from injuries or chronic pain (pain above 30%). In pain right now.</description>
+        <learnRateFactor>2</learnRateFactor>
+		<commonality>0</commonality>
+		<inspirationCommonality>5</inspirationCommonality>
+        <iconPath>Passions/AS_PainDrivenPassion</iconPath>
+        <workBoxIconPath>UI/Icons/AS_PainDrivenPassionGrey</workBoxIconPath>
+        <indicatorString>✹✹</indicatorString>
+        <color>Major</color>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+		<isTriggered>true</isTriggered>
+    </VSE.Passions.PassionDef>
+	
+	
+	
+</Defs>

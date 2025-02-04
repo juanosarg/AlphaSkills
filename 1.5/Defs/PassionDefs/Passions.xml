@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-   <!-- <VSE.Passions.PassionDef>
+   <!--  <VSE.Passions.PassionDef>
         <defName>None</defName>
         <label>none</label>
         <description>no passion</description>
         <learnRateFactor>0.35</learnRateFactor>
         <isBad>true</isBad>
-        <commonality>0</commonality>
+        <commonality>0</commonality> 
         <inspirationCommonality>1</inspirationCommonality>
         <iconPath>Things/Mote/Transparent</iconPath>
+		<passionToIncreaseTo>Minor</passionToIncreaseTo>
     </VSE.Passions.PassionDef>
     <VSE.Passions.PassionDef>
         <defName>Minor</defName>
         <label>interested</label>
-        <description>minor passion</description>
+        <description>This skill is found enjoyable, but it’s more of a hobby than a calling.</description>
         <learnRateFactor>1</learnRateFactor>
         <commonality>1.5</commonality>
         <inspirationCommonality>2.5</inspirationCommonality>
@@ -21,22 +22,24 @@
         <workBoxIconPath>UI/Icons/PassionMinorGray</workBoxIconPath>
         <indicatorString>★</indicatorString>
         <color>Minor</color>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
     </VSE.Passions.PassionDef>
     <VSE.Passions.PassionDef>
         <defName>Major</defName>
         <label>burning</label>
-        <description>major passion</description>
+        <description>A defining skill, driven by deep passion or a pivotal moment in their past.</description>
         <learnRateFactor>1.5</learnRateFactor>
         <inspirationCommonality>5</inspirationCommonality>
         <iconPath>Passions/PassionMajor</iconPath>
         <workBoxIconPath>UI/Icons/PassionMajorGray</workBoxIconPath>
         <indicatorString>★★</indicatorString>
         <color>Major</color>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
     </VSE.Passions.PassionDef>
     <VSE.Passions.PassionDef>
         <defName>VSE_Apathy</defName>
         <label>apathy</label>
-        <description>no interest in this skill</description>
+        <description>Absolutely no interest in this skill.</description>
         <learnRateFactor>0.25</learnRateFactor>
         <forgetRateFactor>1.25</forgetRateFactor>
         <isBad>true</isBad>
@@ -45,6 +48,8 @@
         <iconPath>Passions/PassionApathy</iconPath>
         <indicatorString>Ø</indicatorString>
         <color>Disabled</color>
+		<passionToIncreaseTo>None</passionToIncreaseTo>
+		<randomForBabies>true</randomForBabies>
     </VSE.Passions.PassionDef>
     <VSE.Passions.PassionDef>
         <defName>VSE_Natural</defName>
@@ -58,6 +63,23 @@
         <workBoxIconPath>Passions/PassionNaturalGrey</workBoxIconPath>
         <indicatorString>☆</indicatorString>
         <color>Minor</color>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
+		<randomForBabies>true</randomForBabies>
+    </VSE.Passions.PassionDef>
+    <VSE.Passions.PassionDef>
+        <defName>VSE_Critical</defName>
+        <label>critical</label>
+        <description>This skill is extremely important in some way, most likely due to events in their past.</description>
+        <learnRateFactor>3</learnRateFactor>
+        <learnRateFactorOther>0.25</learnRateFactorOther>
+        <forgetRateFactor>0</forgetRateFactor>
+        <commonality>0.25</commonality>
+        <inspirationCommonality>10</inspirationCommonality>
+        <iconPath>Passions/PassionCritical</iconPath>
+        <workBoxIconPath>Passions/PassionCriticalGrey</workBoxIconPath>
+        <indicatorString>★★★</indicatorString>
+        <color>Major</color>
+		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
     </VSE.Passions.PassionDef>-->
     <VSE.Passions.PassionDef>
         <defName>AS_DrunkenPassion</defName>
@@ -66,13 +88,14 @@
         <learnRateFactor>1.5</learnRateFactor>     
         <commonality>0.05</commonality>
         <inspirationCommonality>5</inspirationCommonality>
-        <iconPath>Passions/AS_DrunkenPassion</iconPath>
+        <iconPath>Passions/AS_DrunkenPassionGrey</iconPath>
         <workBoxIconPath>Passions/AS_DrunkenPassionGrey</workBoxIconPath>
         <indicatorString>♣♣</indicatorString>
         <color>Major</color>
 		<blockingTraitsWithDegree>
 			<DrugDesire>-1</DrugDesire>
 		</blockingTraitsWithDegree>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
     </VSE.Passions.PassionDef>
 	<VSE.Passions.PassionDef>
         <defName>AS_DrunkenPassion_Active</defName>
@@ -88,6 +111,8 @@
 		<blockingTraitsWithDegree>
 			<DrugDesire>-1</DrugDesire>
 		</blockingTraitsWithDegree>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+		<isTriggered>true</isTriggered>
     </VSE.Passions.PassionDef>
 	 <VSE.Passions.PassionDef>
         <defName>AS_FrozenPassion</defName>
@@ -101,6 +126,8 @@
         <iconPath>Passions/AS_FrozenPassion</iconPath>
         <indicatorString>✬</indicatorString>
         <color>Disabled</color>
+		<passionToIncreaseTo>None</passionToIncreaseTo>
+		<randomForBabies>true</randomForBabies>
     </VSE.Passions.PassionDef>
 	 <VSE.Passions.PassionDef>
         <defName>AS_SynergisticPassion</defName>
@@ -114,7 +141,8 @@
         <iconPath>Passions/AS_SynergisticPassion</iconPath>
         <workBoxIconPath>Passions/AS_SynergisticPassionGrey</workBoxIconPath>
         <indicatorString>✥✥</indicatorString>
-		
+		<randomForBabies>true</randomForBabies>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
         <color>Major</color>
     </VSE.Passions.PassionDef>
 	 <VSE.Passions.PassionDef>
@@ -124,12 +152,12 @@
         <learnRateFactor>1.5</learnRateFactor>     
         <commonality>0.05</commonality>
         <inspirationCommonality>5</inspirationCommonality>
-        <iconPath>Passions/AS_NightPassion</iconPath>
+        <iconPath>Passions/AS_NightPassionGrey</iconPath>
         <workBoxIconPath>Passions/AS_NightPassionGrey</workBoxIconPath>
         <indicatorString>☾☾</indicatorString>
 		<hediffToAdd>AS_NightPassion</hediffToAdd>
         <color>Major</color>
-		
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
     </VSE.Passions.PassionDef>
 	<VSE.Passions.PassionDef>
         <defName>AS_NightPassion_Active</defName>
@@ -142,22 +170,39 @@
         <workBoxIconPath>Passions/AS_NightPassionGrey</workBoxIconPath>
         <indicatorString>☾☾</indicatorString>
         <color>Major</color>
-		
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+		<isTriggered>true</isTriggered>
     </VSE.Passions.PassionDef>
 	 <VSE.Passions.PassionDef>
         <defName>AS_YouthPassion</defName>
         <label>youth</label>
-        <description>This skill is very important to this person, but the interest will fade with age, turning into a regular interest when turning 20.</description>
+        <description>This skill is very important to this person, but the interest will fade with age, turning into a regular interest when turning 15.</description>
         <learnRateFactor>3</learnRateFactor>     
         <commonality>0.5</commonality>
-        <inspirationCommonality>7.5</inspirationCommonality>
+        <inspirationCommonality>2.5</inspirationCommonality>
         <iconPath>Passions/AS_YouthPassion</iconPath>
         <workBoxIconPath>Passions/AS_YouthPassionGrey</workBoxIconPath>
         <indicatorString>▲▲</indicatorString>
 		<hediffToAdd>AS_YouthPassion</hediffToAdd>
-		<maxAge>20</maxAge>
+		<maxAge>15</maxAge>
         <color>Major</color>
-		
+		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
     </VSE.Passions.PassionDef>
+	 <VSE.Passions.PassionDef>
+        <defName>AS_DedicatedPassion</defName>
+        <label>dedicated</label>
+        <description>Reflects a deeper, more purposeful engagement than a hobby, but not life-defining.</description>
+        <learnRateFactor>1.25</learnRateFactor>
+		<commonality>1</commonality>
+		<inspirationCommonality>3.5</inspirationCommonality>
+        <iconPath>Passions/AS_DedicatedPassion</iconPath>
+        <workBoxIconPath>UI/Icons/AS_DedicatedPassionGray</workBoxIconPath>
+        <indicatorString>★☆</indicatorString>
+        <color>Minor</color>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
+    </VSE.Passions.PassionDef>
+	
+
+	
 	
 </Defs>

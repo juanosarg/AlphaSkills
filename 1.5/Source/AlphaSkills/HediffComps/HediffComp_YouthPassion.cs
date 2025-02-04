@@ -18,14 +18,14 @@ namespace AlphaSkills
 
             if (this.parent.pawn.IsHashIntervalTick(60000))
             {
-                if (this.parent.pawn.ageTracker.AgeBiologicalYears >= 20)
+                if (this.parent.pawn.ageTracker.AgeBiologicalYears >= 15)
                 {
                     foreach (SkillRecord skill in parent.pawn.skills.skills)
                     {
                         if (skill.passion == (Passion)InternalDefOf.AS_YouthPassion.index)
                         {
                             skill.passion = (Passion)PassionDefOf.Minor.index;
-                            DebugActionsUtility.DustPuffFrom(parent.pawn);
+                           
                         }
 
                     }

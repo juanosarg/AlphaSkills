@@ -17,7 +17,7 @@ namespace AlphaSkills
                 if (skill.passion == (Passion)InternalDefOf.AS_DrunkenPassion.index)
                 {
                     skill.passion = (Passion)InternalDefOf.AS_DrunkenPassion_Active.index;
-                    DebugActionsUtility.DustPuffFrom(parent.pawn);
+                  
                 }
 
             }
@@ -46,7 +46,7 @@ namespace AlphaSkills
                 if (skill.passion == (Passion)InternalDefOf.AS_DrunkenPassion_Active.index)
                 {
                     skill.passion = (Passion)InternalDefOf.AS_DrunkenPassion.index;
-                    DebugActionsUtility.DustPuffFrom(parent.pawn);
+                   
                 }
 
             }
