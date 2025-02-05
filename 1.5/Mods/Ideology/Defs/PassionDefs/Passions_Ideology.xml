@@ -9,7 +9,7 @@
         <learnRateFactor>1</learnRateFactor>
 		<commonality>0.5</commonality>
 		<inspirationCommonality>3.5</inspirationCommonality>
-        <iconPath>Passions/AS_PainDrivenPassionGrey</iconPath>
+        <iconPath>Passions/AS_PainDrivenPassion_Inactive</iconPath>
         <workBoxIconPath>UI/Icons/AS_PainDrivenPassionGrey</workBoxIconPath>
         <indicatorString>✹✹</indicatorString>
         <color>Minor</color>

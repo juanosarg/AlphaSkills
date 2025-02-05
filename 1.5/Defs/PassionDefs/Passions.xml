@@ -88,7 +88,7 @@
         <learnRateFactor>1.5</learnRateFactor>     
         <commonality>0.05</commonality>
         <inspirationCommonality>5</inspirationCommonality>
-        <iconPath>Passions/AS_DrunkenPassionGrey</iconPath>
+        <iconPath>Passions/AS_DrunkenPassion_Inactive</iconPath>
         <workBoxIconPath>Passions/AS_DrunkenPassionGrey</workBoxIconPath>
         <indicatorString>♣♣</indicatorString>
         <color>Major</color>
@@ -152,7 +152,7 @@
         <learnRateFactor>1.5</learnRateFactor>     
         <commonality>0.05</commonality>
         <inspirationCommonality>5</inspirationCommonality>
-        <iconPath>Passions/AS_NightPassionGrey</iconPath>
+        <iconPath>Passions/AS_NightPassion_Inactive</iconPath>
         <workBoxIconPath>Passions/AS_NightPassionGrey</workBoxIconPath>
         <indicatorString>☾☾</indicatorString>
 		<hediffToAdd>AS_NightPassion</hediffToAdd>
