@@ -308,18 +308,21 @@
   <ItemGroup>
     <Compile Include="DefOf\InternalDefOf.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="Harmony\PawnDiedOrDownedThoughtsUtility_TryGiveThoughts.cs" />
     <Compile Include="Harmony\SkillRecord_LearnRateFactor.cs" />
     <Compile Include="HediffComps\HediffComp_DrunkPassions.cs" />
     <Compile Include="HediffComps\HediffComp_NightPassion.cs" />
     <Compile Include="HediffComps\HediffComp_PainDrivenPassion.cs" />
     <Compile Include="HediffComps\HediffComp_SanguinePassion.cs" />
     <Compile Include="HediffComps\HediffComp_ToxicPassion.cs" />
+    <Compile Include="HediffComps\HediffComp_VengefulPassion.cs" />
     <Compile Include="HediffComps\HediffComp_YouthPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_NightPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_DrunkPassions.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_PainDrivenPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_SanguinePassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_ToxicPassion.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_VengefulPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_YouthPassion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

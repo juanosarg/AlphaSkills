@@ -1,5 +1,6 @@
 ﻿using RimWorld;
 using Verse;
+using VSE.Passions;
 namespace AlphaSkills
 {
     public class HediffComp_DrunkPassions : HediffComp
@@ -17,7 +18,7 @@ namespace AlphaSkills
                 if (skill.passion == (Passion)InternalDefOf.AS_DrunkenPassion.index)
                 {
                     skill.passion = (Passion)InternalDefOf.AS_DrunkenPassion_Active.index;
-                  
+                    LearnRateFactorCache.ClearCacheFor(skill);
                 }
 
             }
@@ -46,7 +47,7 @@ namespace AlphaSkills
                 if (skill.passion == (Passion)InternalDefOf.AS_DrunkenPassion_Active.index)
                 {
                     skill.passion = (Passion)InternalDefOf.AS_DrunkenPassion.index;
-                   
+                    LearnRateFactorCache.ClearCacheFor(skill);
                 }
 
             }

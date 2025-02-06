@@ -25,7 +25,7 @@ namespace AlphaSkills
                         if (skill.passion == (Passion)InternalDefOf.AS_YouthPassion.index)
                         {
                             skill.passion = (Passion)PassionDefOf.Minor.index;
-                           
+                            LearnRateFactorCache.ClearCacheFor(skill);
                         }
 
                     }

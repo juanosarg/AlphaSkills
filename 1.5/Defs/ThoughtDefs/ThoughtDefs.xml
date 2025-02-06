@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	 <ThoughtDef>
+    <defName>AS_ForbiddenPassion</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>AS_ForbiddenPassion</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+     
+      <li>
+        <label>forbidden passion</label>
+        <description>I crave it, but I mustn’t. The urge to indulge in this skill gnaws at me, yet I know the consequences.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+     
+    </stages>
+  </ThoughtDef>
+</Defs>

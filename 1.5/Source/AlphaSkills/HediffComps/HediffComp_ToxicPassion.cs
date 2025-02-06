@@ -25,6 +25,7 @@ namespace AlphaSkills
                         if (skill.passion == (Passion)InternalDefOf.AS_ToxicPassion.index || skill.passion == (Passion)InternalDefOf.AS_ToxicPassion_Active.index)
                         {
                             skill.passion = (Passion)PassionDefOf.None.index;
+                            LearnRateFactorCache.ClearCacheFor(skill);
                         }
                     }
                     this.parent.pawn.health.RemoveHediff(parent);
@@ -38,7 +39,7 @@ namespace AlphaSkills
                         if (skill.passion == (Passion)InternalDefOf.AS_ToxicPassion.index)
                         {
                             skill.passion = (Passion)InternalDefOf.AS_ToxicPassion_Active.index;
-
+                            LearnRateFactorCache.ClearCacheFor(skill);
                         }
 
                     }
@@ -50,7 +51,7 @@ namespace AlphaSkills
                         if (skill.passion == (Passion)InternalDefOf.AS_ToxicPassion_Active.index)
                         {
                             skill.passion = (Passion)InternalDefOf.AS_ToxicPassion.index;
-
+                            LearnRateFactorCache.ClearCacheFor(skill);
                         }
 
                     }

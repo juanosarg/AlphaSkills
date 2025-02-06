@@ -28,8 +28,8 @@ namespace AlphaSkills
                             if (skill.passion == (Passion)InternalDefOf.AS_PainDrivenPassion.index)
                             {
                                 skill.passion = (Passion)InternalDefOf.AS_PainDrivenPassion_Active.index;
-
-                            }
+                            LearnRateFactorCache.ClearCacheFor(skill);
+                        }
 
                         }
                     }
@@ -40,8 +40,8 @@ namespace AlphaSkills
                             if (skill.passion == (Passion)InternalDefOf.AS_PainDrivenPassion_Active.index)
                             {
                                 skill.passion = (Passion)InternalDefOf.AS_PainDrivenPassion.index;
-
-                            }
+                            LearnRateFactorCache.ClearCacheFor(skill);
+                        }
 
                         }
                     }

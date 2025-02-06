@@ -14,6 +14,9 @@ namespace AlphaSkills
         public static VSE.Passions.PassionDef AS_NightPassion;
         public static VSE.Passions.PassionDef AS_NightPassion_Active;
 
+        public static VSE.Passions.PassionDef AS_VengefulPassion;
+        public static VSE.Passions.PassionDef AS_VengefulPassion_Active;
+
         [MayRequireBiotech]
         public static VSE.Passions.PassionDef AS_SanguinePassion;
         [MayRequireBiotech]
@@ -33,6 +36,8 @@ namespace AlphaSkills
 
         [MayRequireBiotech]
         public static GeneDef PollutionRush;
+
+        public static HediffDef AS_VengefulPassion_Hediff;
 
         static InternalDefOf()
         {
