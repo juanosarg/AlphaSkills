@@ -160,4 +160,27 @@
 			</li>
 		</stages>
 	</HediffDef>
+	<HediffDef>
+		<defName>AS_NomadicPassion</defName>
+		<label>nomadic passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having a nomadic passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_NomadicPassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

@@ -6,12 +6,12 @@
         <defName>AS_SanguinePassion</defName>
         <label>sanguine</label>
         <description>This passion is fueled by vitality. They learn faster when their hemogen levels are high (above 50%).</description>
-        <learnRateFactor>1.25</learnRateFactor>
+        <learnRateFactor>1</learnRateFactor>
 		<commonality>0.5</commonality>
 		<inspirationCommonality>3.5</inspirationCommonality>
         <iconPath>Passions/AS_SanguinePassion_Inactive</iconPath>
         <workBoxIconPath>UI/Icons/AS_SanguinePassionGrey</workBoxIconPath>
-        <indicatorString>★☆</indicatorString>
+        <indicatorString>♥♥</indicatorString>
         <color>Minor</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 		<requiredGenes><li>Hemogenic</li></requiredGenes>
@@ -26,7 +26,7 @@
 		<inspirationCommonality>5</inspirationCommonality>
         <iconPath>Passions/AS_SanguinePassion</iconPath>
         <workBoxIconPath>UI/Icons/AS_SanguinePassionGrey</workBoxIconPath>
-        <indicatorString>★☆</indicatorString>
+        <indicatorString>♥♥</indicatorString>
         <color>Minor</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 		<isTriggered>true</isTriggered>
@@ -41,7 +41,7 @@
 		<inspirationCommonality>3.5</inspirationCommonality>
         <iconPath>Passions/AS_ToxicPassion_Inactive</iconPath>
         <workBoxIconPath>UI/Icons/AS_ToxicPassionGrey</workBoxIconPath>
-        <indicatorString>☠☠</indicatorString>
+        <indicatorString>☣☣</indicatorString>
         <color>Minor</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 		<requiredGenes><li>PollutionRush</li></requiredGenes>
@@ -56,7 +56,7 @@
 		<inspirationCommonality>5</inspirationCommonality>
         <iconPath>Passions/AS_ToxicPassion</iconPath>
         <workBoxIconPath>UI/Icons/AS_ToxicPassionGrey</workBoxIconPath>
-        <indicatorString>☠☠</indicatorString>
+        <indicatorString>☣☣</indicatorString>
         <color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 		<isTriggered>true</isTriggered>

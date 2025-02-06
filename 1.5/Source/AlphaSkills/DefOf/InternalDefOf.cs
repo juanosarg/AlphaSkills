@@ -14,6 +14,9 @@ namespace AlphaSkills
         public static VSE.Passions.PassionDef AS_NightPassion;
         public static VSE.Passions.PassionDef AS_NightPassion_Active;
 
+        public static VSE.Passions.PassionDef AS_NomadicPassion;
+        public static VSE.Passions.PassionDef AS_NomadicPassion_Active;
+
         public static VSE.Passions.PassionDef AS_VengefulPassion;
         public static VSE.Passions.PassionDef AS_VengefulPassion_Active;
 
@@ -38,6 +41,11 @@ namespace AlphaSkills
         public static GeneDef PollutionRush;
 
         public static HediffDef AS_VengefulPassion_Hediff;
+
+        public static StatDef AS_MortarDamageFactor;
+        public static StatDef AS_CraftingYield;
+        public static StatDef AS_ExtraGoldYield;
+        public static StatDef AS_ExtraComponentsYield;
 
         static InternalDefOf()
         {

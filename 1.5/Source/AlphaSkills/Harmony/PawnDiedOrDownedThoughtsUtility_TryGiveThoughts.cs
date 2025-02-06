@@ -19,7 +19,7 @@ namespace AlphaSkills
         public static void GiveColonyDeathThought(Pawn victim)
         {
 
-            if(victim.Faction == Faction.OfPlayer) {
+            if(victim.Faction == Faction.OfPlayerSilentFail) {
 
                 foreach (Pawn pawn in PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_Colonists)
                 {
