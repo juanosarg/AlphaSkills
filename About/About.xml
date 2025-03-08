@@ -8,7 +8,7 @@
 		<li>1.5</li>
 	</supportedVersions>
 	<packageId>sarg.alphaskills</packageId>
-	<description></description>
+	<description>An add-on mod for Vanilla Skills Expanded adding 13 new passions and 15 new expertises.</description>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
