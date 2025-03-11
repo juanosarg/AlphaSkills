@@ -18,7 +18,7 @@ namespace AlphaSkills
         {
             
 
-            if (recipeDef.workSkill == SkillDefOf.Crafting)
+            if (recipeDef.workSkill == SkillDefOf.Crafting && __result.stackCount>1)
             {
                 int resultingStack = __result.stackCount;
                 resultingStack = (int)(resultingStack * worker.GetStatValue(InternalDefOf.AS_CraftingYield));
