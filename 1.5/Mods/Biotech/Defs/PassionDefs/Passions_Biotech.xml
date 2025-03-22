@@ -10,7 +10,7 @@
 		<commonality>0.5</commonality>
 		<inspirationCommonality>3.5</inspirationCommonality>
         <iconPath>Passions/AS_SanguinePassion_Inactive</iconPath>
-        <workBoxIconPath>UI/Icons/AS_SanguinePassionGrey</workBoxIconPath>
+        <workBoxIconPath>Passions/AS_SanguinePassionGrey</workBoxIconPath>
         <indicatorString>♥♥</indicatorString>
         <color>Minor</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
@@ -25,7 +25,7 @@
 		<commonality>0</commonality>
 		<inspirationCommonality>5</inspirationCommonality>
         <iconPath>Passions/AS_SanguinePassion</iconPath>
-        <workBoxIconPath>UI/Icons/AS_SanguinePassionGrey</workBoxIconPath>
+        <workBoxIconPath>Passions/AS_SanguinePassionGrey</workBoxIconPath>
         <indicatorString>♥♥</indicatorString>
         <color>Minor</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
@@ -40,7 +40,7 @@
 		<commonality>0.5</commonality>
 		<inspirationCommonality>3.5</inspirationCommonality>
         <iconPath>Passions/AS_ToxicPassion_Inactive</iconPath>
-        <workBoxIconPath>UI/Icons/AS_ToxicPassionGrey</workBoxIconPath>
+        <workBoxIconPath>Passions/AS_ToxicPassionGrey</workBoxIconPath>
         <indicatorString>☣☣</indicatorString>
         <color>Minor</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
@@ -55,7 +55,7 @@
 		<commonality>0</commonality>
 		<inspirationCommonality>5</inspirationCommonality>
         <iconPath>Passions/AS_ToxicPassion</iconPath>
-        <workBoxIconPath>UI/Icons/AS_ToxicPassionGrey</workBoxIconPath>
+        <workBoxIconPath>Passions/AS_ToxicPassionGrey</workBoxIconPath>
         <indicatorString>☣☣</indicatorString>
         <color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>

@@ -10,7 +10,7 @@
 		<commonality>0.5</commonality>
 		<inspirationCommonality>3.5</inspirationCommonality>
         <iconPath>Passions/AS_PainDrivenPassion_Inactive</iconPath>
-        <workBoxIconPath>UI/Icons/AS_PainDrivenPassionGrey</workBoxIconPath>
+        <workBoxIconPath>Passions/AS_PainDrivenPassionGrey</workBoxIconPath>
         <indicatorString>✹✹</indicatorString>
         <color>Minor</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
@@ -25,7 +25,7 @@
 		<commonality>0</commonality>
 		<inspirationCommonality>5</inspirationCommonality>
         <iconPath>Passions/AS_PainDrivenPassion</iconPath>
-        <workBoxIconPath>UI/Icons/AS_PainDrivenPassionGrey</workBoxIconPath>
+        <workBoxIconPath>Passions/AS_PainDrivenPassionGrey</workBoxIconPath>
         <indicatorString>✹✹</indicatorString>
         <color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
