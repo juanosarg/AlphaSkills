@@ -116,7 +116,7 @@
 		<commonality>0.3</commonality>
 		<inspirationCommonality>3.5</inspirationCommonality>
 		<iconPath>Passions/AS_DedicatedPassion</iconPath>
-		<workBoxIconPath>UI/Icons/AS_DedicatedPassionGrey</workBoxIconPath>
+		<workBoxIconPath>Passions/AS_DedicatedPassionGrey</workBoxIconPath>
 		<indicatorString>★☆</indicatorString>
 		<color>Minor</color>
 		<passionToIncreaseTo>Major</passionToIncreaseTo>
@@ -130,7 +130,7 @@
 		<commonality>0.3</commonality>
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_ObsessivePassion</iconPath>
-		<workBoxIconPath>UI/Icons/AS_ObsessivePassionGrey</workBoxIconPath>
+		<workBoxIconPath>Passions/AS_ObsessivePassionGrey</workBoxIconPath>
 		<indicatorString>✦✦</indicatorString>
 		<color>Minor</color>
 		<passionToIncreaseTo>Major</passionToIncreaseTo>
@@ -171,7 +171,7 @@
 		<commonality>0.15</commonality>
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_ForbiddenPassion</iconPath>
-		<workBoxIconPath>UI/Icons/AS_ForbiddenPassionGrey</workBoxIconPath>
+		<workBoxIconPath>Passions/AS_ForbiddenPassionGrey</workBoxIconPath>
 		<indicatorString>◎◎◎</indicatorString>
 		<color>Major</color>
 		<minAge>18</minAge>

@@ -50,5 +50,17 @@
         <toStringStyleUnfinalized>PercentTwo</toStringStyleUnfinalized>
         <disableIfSkillDisabled>Mining</disableIfSkillDisabled>
     </StatDef>
+	<StatDef>
+       <defName>AS_FireStarter</defName>
+		<label>fire starter</label>
+        <description>A bonus to the chance of setting a melee target on fire.</description>
+        <category>PawnCombat</category>
+        <defaultBaseValue>0</defaultBaseValue>
+        <minValue>0</minValue>
+        <hideAtValue>0</hideAtValue>
+        <toStringStyle>PercentOne</toStringStyle>
+        <toStringStyleUnfinalized>PercentTwo</toStringStyleUnfinalized>
+        <disableIfSkillDisabled>Melee</disableIfSkillDisabled>
+    </StatDef>
     
 </Defs>

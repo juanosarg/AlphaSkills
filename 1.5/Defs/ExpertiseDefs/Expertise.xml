@@ -21,11 +21,11 @@
 	</VSE.Expertise.ExpertiseDef>
 	<VSE.Expertise.ExpertiseDef>
 		<defName>AS_Pummeling</defName>
-		<label>Pummeling</label>
+		<label>Firestarter</label>
 		<skill>Melee</skill>
-		<description>An expertise in relentless melee attacks, maintaining high sustained damage.</description>
+		<description>An expertise in using bloodborne pyrokinetic mechanites to set a melee target on fire.</description>
 		<statOffsets>
-			<MeleeDPS>0.5</MeleeDPS>
+			<AS_FireStarter>0.02</AS_FireStarter>
 		</statOffsets>
 	</VSE.Expertise.ExpertiseDef>
 	<VSE.Expertise.ExpertiseDef>

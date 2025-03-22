@@ -313,6 +313,7 @@
     <Compile Include="Harmony\PawnDiedOrDownedThoughtsUtility_TryGiveThoughts.cs" />
     <Compile Include="Harmony\SkillRecord_LearnRateFactor.cs" />
     <Compile Include="Harmony\VerbProperties_GetDamageFactorFor.cs" />
+    <Compile Include="Harmony\Verb_MeleeAttackDamage_DamageInfosToApply.cs" />
     <Compile Include="HediffComps\HediffComp_DrunkPassions.cs" />
     <Compile Include="HediffComps\HediffComp_NightPassion.cs" />
     <Compile Include="HediffComps\HediffComp_NomadicPassion.cs" />

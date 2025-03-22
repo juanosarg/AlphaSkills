@@ -46,6 +46,7 @@ namespace AlphaSkills
         public static StatDef AS_CraftingYield;
         public static StatDef AS_ExtraGoldYield;
         public static StatDef AS_ExtraComponentsYield;
+        public static StatDef AS_FireStarter;
 
         static InternalDefOf()
         {
