@@ -13,15 +13,19 @@ namespace AlphaSkills
 
         public override void CompPostPostAdd(DamageInfo? dinfo)
         {
-            foreach (SkillRecord skill in parent.pawn.skills.skills)
+            if (parent.pawn?.skills?.skills != null)
             {
-                if (skill.passion == (Passion)InternalDefOf.AS_DrunkenPassion.index)
+                foreach (SkillRecord skill in parent.pawn.skills.skills)
                 {
-                    skill.passion = (Passion)InternalDefOf.AS_DrunkenPassion_Active.index;
-                    LearnRateFactorCache.ClearCacheFor(skill);
-                }
+                    if (skill.passion == (Passion)InternalDefOf.AS_DrunkenPassion.index)
+                    {
+                        skill.passion = (Passion)InternalDefOf.AS_DrunkenPassion_Active.index;
+                        LearnRateFactorCache.ClearCacheFor(skill);
+                    }
 
+                }
             }
+           
         }
 
         public override void CompPostPostRemoved()
