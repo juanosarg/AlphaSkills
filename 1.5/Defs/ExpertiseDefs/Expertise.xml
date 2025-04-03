@@ -52,7 +52,7 @@
 		<skill>Melee</skill>
 		<description>An expertise in withstanding incoming damage, reducing harm taken in combat.</description>
 		<statOffsets>
-			<IncomingDamageFactor>-0.025</IncomingDamageFactor>
+			<IncomingDamageFactor>-0.01</IncomingDamageFactor>
 		</statOffsets>
 	</VSE.Expertise.ExpertiseDef>
 	<VSE.Expertise.ExpertiseDef>

@@ -19,21 +19,24 @@ namespace AlphaSkills
         [HarmonyPostfix]
         public static void ExtraYields(Map map, bool moteOnWaste, Pawn pawn, Mineable __instance)
         {
-
-            if (Rand.Chance(pawn.GetStatValue(InternalDefOf.AS_ExtraGoldYield)))
+            if (pawn != null)
             {
-                Thing thing = ThingMaker.MakeThing(ThingDefOf.Gold);
-                thing.stackCount = new IntRange(1,5).RandomInRange;
-                GenPlace.TryPlaceThing(thing, __instance.Position, map, ThingPlaceMode.Near);
+                if (Rand.Chance(pawn.GetStatValue(InternalDefOf.AS_ExtraGoldYield)))
+                {
+                    Thing thing = ThingMaker.MakeThing(ThingDefOf.Gold);
+                    thing.stackCount = new IntRange(1, 5).RandomInRange;
+                    GenPlace.TryPlaceThing(thing, __instance.Position, map, ThingPlaceMode.Near);
 
-            }
-            if (Rand.Chance(pawn.GetStatValue(InternalDefOf.AS_ExtraComponentsYield)))
-            {
-                Thing thing2 = ThingMaker.MakeThing(ThingDefOf.ComponentSpacer);
-                thing2.stackCount = 1;
-                GenPlace.TryPlaceThing(thing2, __instance.Position, map, ThingPlaceMode.Near);
+                }
+                if (Rand.Chance(pawn.GetStatValue(InternalDefOf.AS_ExtraComponentsYield)))
+                {
+                    Thing thing2 = ThingMaker.MakeThing(ThingDefOf.ComponentSpacer);
+                    thing2.stackCount = 1;
+                    GenPlace.TryPlaceThing(thing2, __instance.Position, map, ThingPlaceMode.Near);
 
+                }
             }
+            
 
 
         }
