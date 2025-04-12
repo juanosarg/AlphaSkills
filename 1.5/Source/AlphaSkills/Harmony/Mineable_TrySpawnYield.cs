@@ -30,7 +30,7 @@ namespace AlphaSkills
                 }
                 if (Rand.Chance(pawn.GetStatValue(InternalDefOf.AS_ExtraComponentsYield)))
                 {
-                    Thing thing2 = ThingMaker.MakeThing(ThingDefOf.ComponentSpacer);
+                    Thing thing2 = ThingMaker.MakeThing(ThingDefOf.ComponentIndustrial);
                     thing2.stackCount = 1;
                     GenPlace.TryPlaceThing(thing2, __instance.Position, map, ThingPlaceMode.Near);
 
