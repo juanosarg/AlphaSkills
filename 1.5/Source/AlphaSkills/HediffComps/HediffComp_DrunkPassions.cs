@@ -45,15 +45,17 @@ namespace AlphaSkills
 
         public void RevertPassion()
         {
-
-            foreach (SkillRecord skill in parent.pawn.skills.skills)
+            if (parent.pawn?.skills?.skills != null)
             {
-                if (skill.passion == (Passion)InternalDefOf.AS_DrunkenPassion_Active.index)
+                foreach (SkillRecord skill in parent.pawn.skills.skills)
                 {
-                    skill.passion = (Passion)InternalDefOf.AS_DrunkenPassion.index;
-                    LearnRateFactorCache.ClearCacheFor(skill);
-                }
+                    if (skill.passion == (Passion)InternalDefOf.AS_DrunkenPassion_Active.index)
+                    {
+                        skill.passion = (Passion)InternalDefOf.AS_DrunkenPassion.index;
+                        LearnRateFactorCache.ClearCacheFor(skill);
+                    }
 
+                }
             }
         }
     }
