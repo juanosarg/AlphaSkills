@@ -21,7 +21,7 @@ namespace AlphaSkills
 
             if(victim.Faction == Faction.OfPlayerSilentFail) {
 
-                foreach (Pawn pawn in PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_Colonists)
+                foreach (Pawn pawn in PawnsFinder.AllMapsCaravansAndTravellingTransporters_Alive_Colonists)
                 {
                     if (pawn != victim)
                     {

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_Blasting</defName>
+		<label>Blasting</label>
+		<description>An expertise in maximizing the impact of ranged attacks, delivering more devastating shots.</description>
+		<skill>Shooting</skill>
+		<statOffsets>
+			<VEF_RangeAttackDamageFactor>0.01</VEF_RangeAttackDamageFactor>
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_Mortaring</defName>
+		<label>Mortaring</label>
+		<skill>Shooting</skill>
+		<description>An expertise in operating mortars, improving their effectiveness in long-range bombardment as well as their damage.</description>
+		<statOffsets>
+			<MortarMissRadiusFactor>-0.05</MortarMissRadiusFactor>
+			<AS_MortarDamageFactor>0.01</AS_MortarDamageFactor>
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_Pummeling</defName>
+		<label>Firestarter</label>
+		<skill>Melee</skill>
+		<description>An expertise in using bloodborne pyrokinetic mechanites to set a melee target on fire.</description>
+		<statOffsets>
+			<AS_FireStarter>0.02</AS_FireStarter>
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_Cleaving</defName>
+		<label>Cleaving</label>
+		<skill>Melee</skill>
+		<description>An expertise in delivering powerful melee strikes that maximize damage output.</description>
+		<statOffsets>
+			<MeleeDamageFactor>0.025</MeleeDamageFactor>
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_Evading</defName>
+		<label>Evading</label>
+		<skill>Melee</skill>
+		<description>An expertise in avoiding melee attacks through agility and reflexes.</description>
+		<statOffsets>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_Enduring</defName>
+		<label>Enduring</label>
+		<skill>Melee</skill>
+		<description>An expertise in withstanding incoming damage, reducing harm taken in combat.</description>
+		<statOffsets>
+			<IncomingDamageFactor>-0.01</IncomingDamageFactor>
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_CraftingQuality</defName>
+		<label>Crafting quality</label>
+		<skill>Crafting</skill>
+		<description>An expertise in fine-tuning general, non-artistic craftsmanship, ensuring higher-quality crafted goods.</description>
+		<statOffsets>
+			<VSE_CraftingQuality>0.05</VSE_CraftingQuality>		
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_CraftingYield</defName>
+		<label>Crafting yield</label>
+		<skill>Crafting</skill>
+		<description>An expertise in maximizing material efficiency, reducing waste during crafting.</description>
+		<statOffsets>
+			<AS_CraftingYield>0.025</AS_CraftingYield>		
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_Smelting</defName>
+		<label>Smelting</label>
+		<skill>Crafting</skill>
+		<description>An expertise in smelting materials, efficiently turning slag and unwanted weapons into usable resources.</description>
+		<statOffsets>
+			<SmeltingSpeed>0.05</SmeltingSpeed>		
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_Panning</defName>
+		<label>Panning</label>
+		<skill>Mining</skill>
+		<description>An expertise in identifying valuable veins, increasing the chance of finding extra gold while mining.</description>
+		<statOffsets>
+			<AS_ExtraGoldYield>0.01</AS_ExtraGoldYield>
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_Salvaging</defName>
+		<label>Salvaging</label>
+		<skill>Mining</skill>
+		<description>An expertise in extracting useful materials long buried in the rock, improving the chances of discovering extra components while mining.</description>
+		<statOffsets>
+			<AS_ExtraComponentsYield>0.01</AS_ExtraComponentsYield>
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_Trafficking</defName>
+		<label>Trafficking</label>
+		<skill>Social</skill>
+		<description>An expertise in the harvesting and distribution of illicit substances, ensuring high returns in the underground market.</description>
+		<statOffsets>
+			<DrugHarvestYield>0.025</DrugHarvestYield>
+			<DrugSellPriceImprovement>0.025</DrugSellPriceImprovement>
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef MayRequire="ludeon.rimworld.ideology">
+		<defName>AS_Influencing</defName>
+		<label>Influencing</label>
+		<skill>Social</skill>
+		<description>An expertise in spreading and shaping ideologies, increasing the frequency of social influence and reducing certainty loss.</description>
+		<statOffsets>
+			<SocialIdeoSpreadFrequencyFactor>0.05</SocialIdeoSpreadFrequencyFactor>
+			<CertaintyLossFactor>-0.05</CertaintyLossFactor>
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef MayRequire="ludeon.rimworld.royalty">
+		<defName>AS_Psycasting</defName>
+		<label>Psycasting</label>
+		<skill>Intellectual</skill>
+		<description>An expertise in harnessing and focusing psychic energy, improving control and effectiveness in psycasting.</description>
+		<statOffsets>
+			<PsychicEntropyMax>10</PsychicEntropyMax>
+			<PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	
+	<VSE.Expertise.ExpertiseDef  MayRequire="ludeon.rimworld.anomaly">
+		<defName>AS_Quelling</defName>
+		<label>Quelling</label>
+		<skill>Intellectual</skill>
+		<description>An expertise in swiftly suppressing unnatural entities, increasing the speed of their activity suppression.</description>
+		<statOffsets>
+			<ActivitySuppressionRate>0.05</ActivitySuppressionRate>
+			
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	
+</Defs>

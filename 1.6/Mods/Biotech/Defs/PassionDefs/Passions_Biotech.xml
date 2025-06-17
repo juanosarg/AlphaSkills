@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+ 
+	
+	 <VSE.Passions.PassionDef>
+        <defName>AS_SanguinePassion</defName>
+        <label>sanguine</label>
+        <description>This passion is fueled by vitality. They learn faster when their hemogen levels are high (above 50%).</description>
+        <learnRateFactor>1</learnRateFactor>
+		<commonality>0.5</commonality>
+		<inspirationCommonality>3.5</inspirationCommonality>
+        <iconPath>Passions/AS_SanguinePassion_Inactive</iconPath>
+        <workBoxIconPath>Passions/AS_SanguinePassionGrey</workBoxIconPath>
+        <indicatorString>♥♥</indicatorString>
+        <color>Minor</color>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+		<requiredGenes><li>Hemogenic</li></requiredGenes>
+		<hediffToAdd>AS_SanguinePassion</hediffToAdd>
+    </VSE.Passions.PassionDef>
+	 <VSE.Passions.PassionDef>
+        <defName>AS_SanguinePassion_Active</defName>
+        <label>sanguine (active)</label>
+        <description>This passion is fueled by vitality. They learn faster when their hemogen levels are high. Hemogen level is above 50% now.</description>
+        <learnRateFactor>2</learnRateFactor>
+		<commonality>0</commonality>
+		<inspirationCommonality>5</inspirationCommonality>
+        <iconPath>Passions/AS_SanguinePassion</iconPath>
+        <workBoxIconPath>Passions/AS_SanguinePassionGrey</workBoxIconPath>
+        <indicatorString>♥♥</indicatorString>
+        <color>Minor</color>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+		<isTriggered>true</isTriggered>
+    </VSE.Passions.PassionDef>
+	
+	 <VSE.Passions.PassionDef>
+        <defName>AS_ToxicPassion</defName>
+        <label>toxic</label>
+        <description>This passion thrives in filth and decay. They will learn faster when surrounded by pollution.</description>
+        <learnRateFactor>1</learnRateFactor>
+		<commonality>0.5</commonality>
+		<inspirationCommonality>3.5</inspirationCommonality>
+        <iconPath>Passions/AS_ToxicPassion_Inactive</iconPath>
+        <workBoxIconPath>Passions/AS_ToxicPassionGrey</workBoxIconPath>
+        <indicatorString>☣☣</indicatorString>
+        <color>Minor</color>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+		<requiredGenes><li>PollutionRush</li></requiredGenes>
+		<hediffToAdd>AS_ToxicPassion</hediffToAdd>
+    </VSE.Passions.PassionDef>
+	 <VSE.Passions.PassionDef>
+        <defName>AS_ToxicPassion_Active</defName>
+        <label>toxic (active)</label>
+        <description>This passion thrives in filth and decay. They will learn faster when surrounded by pollution. This person is in polluted terrain right now.</description>
+        <learnRateFactor>2</learnRateFactor>
+		<commonality>0</commonality>
+		<inspirationCommonality>5</inspirationCommonality>
+        <iconPath>Passions/AS_ToxicPassion</iconPath>
+        <workBoxIconPath>Passions/AS_ToxicPassionGrey</workBoxIconPath>
+        <indicatorString>☣☣</indicatorString>
+        <color>Major</color>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+		<isTriggered>true</isTriggered>
+    </VSE.Passions.PassionDef>
+	
+</Defs>

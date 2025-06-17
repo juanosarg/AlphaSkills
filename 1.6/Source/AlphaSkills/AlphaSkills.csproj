@@ -289,18 +289,18 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="VSE">
-      <HintPath>..\..\..\..\VanillaSkillsExpanded\1.5\Assemblies\VSE.dll</HintPath>
+      <HintPath>..\..\..\..\VanillaSkillsExpanded\1.6\Assemblies\VSE.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Publicizer">
-      <Version>2.2.1</Version>
+      <Version>2.3.0</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Lib.Harmony">
-      <Version>2.3.3</Version>
+      <Version>2.3.6</Version>
       <ExcludeAssets>runtime</ExcludeAssets>
       <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
