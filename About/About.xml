@@ -4,12 +4,11 @@
 	<author>Sarg Bjornson</author>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
 	<supportedVersions>
-		
-		<li>1.5</li>		<li>1.6</li>
-
+		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<packageId>sarg.alphaskills</packageId>
-	<description>An add-on mod for Vanilla Skills Expanded adding 13 new passions and 15 new expertises.</description>
+	<description>An add-on mod for Vanilla Skills Expanded adding 13 new passions and 19 new expertises.</description>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
@@ -29,11 +28,7 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
-		
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>vanillaexpanded.skills</li>
-	
 	</loadAfter>
-	
-	
 </ModMetaData>
