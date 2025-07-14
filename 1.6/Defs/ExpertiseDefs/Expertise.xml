@@ -141,5 +141,47 @@
 			
 		</statOffsets>
 	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef  MayRequire="ludeon.rimworld.odyssey">
+		<defName>AS_Piloting</defName>
+		<label>Piloting</label>
+		<skill>Intellectual</skill>
+		<description>An expertise in piloting gravships.</description>
+		<statOffsets>
+			<PilotingAbility>0.05</PilotingAbility>
+			
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	<VSE.Expertise.ExpertiseDef  MayRequire="ludeon.rimworld.odyssey">
+		<defName>AS_VacuumResilience</defName>
+		<label>Vacuum Resilience</label>
+		<skill>Melee</skill>
+		<description>An expertise in preparing the body to withstand a vacuum better. Yes, this is dumb.</description>
+		<statOffsets>
+			<VacuumResistance>0.05</VacuumResistance>
+			
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_RangedDodging</defName>
+		<label>Ranged Dodging</label>
+		<skill>Melee</skill>
+		<description>An expertise in moving so swiftly as to have a chance to dodge ranged attacks, ninja style.</description>
+		<statOffsets>
+			<VEF_RangedDodgeChance>0.01</VEF_RangedDodgeChance>
+			
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
+	
+	<VSE.Expertise.ExpertiseDef>
+		<defName>AS_Mindfulness</defName>
+		<label>Mindfulness</label>
+		<skill>Social</skill>
+		<description>An expertise in controlling your own mind to make negative thoughts affect you for a shorter time.</description>
+		<statOffsets>
+			<VEF_NegativeThoughtDurationFactor>-0.025</VEF_NegativeThoughtDurationFactor>
+			
+		</statOffsets>
+	</VSE.Expertise.ExpertiseDef>
 	
 </Defs>
