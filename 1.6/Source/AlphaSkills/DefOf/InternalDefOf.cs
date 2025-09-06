@@ -20,6 +20,8 @@ namespace AlphaSkills
         public static VSE.Passions.PassionDef AS_VengefulPassion;
         public static VSE.Passions.PassionDef AS_VengefulPassion_Active;
 
+        public static VSE.Passions.PassionDef AS_ForbiddenPassion;
+
         [MayRequireBiotech]
         public static VSE.Passions.PassionDef AS_SanguinePassion;
         [MayRequireBiotech]

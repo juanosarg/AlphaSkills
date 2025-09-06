@@ -152,7 +152,9 @@
 		<initialSeverity>1.0</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
 		<comps>
-			
+			<li Class="AlphaSkills.HediffCompProperties_ForbiddenPassion">
+				
+			</li>
 		</comps>
 		<stages>
 			<li>
