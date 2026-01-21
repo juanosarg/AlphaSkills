@@ -43,7 +43,7 @@
 		<skill>Melee</skill>
 		<description>An expertise in avoiding melee attacks through agility and reflexes.</description>
 		<statOffsets>
-			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+			<MeleeDodgeChance>1</MeleeDodgeChance>
 		</statOffsets>
 	</VSE.Expertise.ExpertiseDef>
 	<VSE.Expertise.ExpertiseDef>
