@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	 <ThoughtDef>
-    <defName>AS_ForbiddenPassion</defName>
-    <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>AS_ForbiddenPassion</hediff>
-    <validWhileDespawned>true</validWhileDespawned>
-    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
-    <stages>
-     
-      <li>
-        <label>forbidden passion</label>
-        <description>I crave it, but I mustn’t. The urge to indulge in this skill gnaws at me, yet I know the consequences.</description>
-        <baseMoodEffect>-5</baseMoodEffect>
-      </li>
-     
-    </stages>
-  </ThoughtDef>
+	<ThoughtDef>
+		<defName>AS_ForbiddenPassion</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>AS_ForbiddenPassion</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>forbidden passion</label>
+				<description>I crave it, but I mustn’t. The urge to indulge in this skill gnaws at me, yet I know the consequences.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AS_DuncePassion</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>AS_DuncePassion</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<visible>false</visible>
+			</li>
+			<li>
+				<label>doing enjoyable work</label>
+				<description>I'm not very good at this job, but I enjoy it so much!</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 </Defs>

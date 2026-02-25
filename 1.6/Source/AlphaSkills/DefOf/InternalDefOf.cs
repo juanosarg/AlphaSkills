@@ -22,7 +22,19 @@ namespace AlphaSkills
 
         public static VSE.Passions.PassionDef AS_ForbiddenPassion;
 
-        [MayRequireBiotech]
+        public static VSE.Passions.PassionDef AS_MoodyPassion;
+        public static VSE.Passions.PassionDef AS_MoodyPassion_Apathy;
+        public static VSE.Passions.PassionDef AS_MoodyPassion_NoPassion;
+        public static VSE.Passions.PassionDef AS_MoodyPassion_Major;
+        public static VSE.Passions.PassionDef AS_MoodyPassion_Greater;
+
+        public static VSE.Passions.PassionDef AS_PsychicPassion_Nullified;
+        public static VSE.Passions.PassionDef AS_PsychicPassion_Minor;
+        public static VSE.Passions.PassionDef AS_PsychicPassion;
+        public static VSE.Passions.PassionDef AS_PsychicPassion_Major;
+        public static VSE.Passions.PassionDef AS_PsychicPassion_Critical;
+
+       [MayRequireBiotech]
         public static VSE.Passions.PassionDef AS_SanguinePassion;
         [MayRequireBiotech]
         public static VSE.Passions.PassionDef AS_SanguinePassion_Active;

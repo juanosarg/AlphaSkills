@@ -185,4 +185,78 @@
 			</li>
 		</stages>
 	</HediffDef>
+	<HediffDef>
+		<defName>AS_MoodyPassion</defName>
+		<label>moody passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having a moody passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_MoodyPassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AS_DuncePassion</defName>
+		<label>dunce passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having a dunce passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1.0</maxSeverity>
+		<initialSeverity>0.1</initialSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_DuncePassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<minSeverity>0.1</minSeverity>
+			</li>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<minSeverity>0.2</minSeverity>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AS_PsychicPassion</defName>
+		<label>psychic passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having a psychic passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_PsychicPassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>
