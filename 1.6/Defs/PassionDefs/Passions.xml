@@ -35,6 +35,38 @@
 		<isTriggered>true</isTriggered>
 	</VSE.Passions.PassionDef>
 	<VSE.Passions.PassionDef>
+		<defName>AS_StonedPassion</defName>
+		<label>stoned</label>
+		<description>This person will get extra learning of this skill after smoking a smokeleaf joint.</description>
+		<learnRateFactor>1</learnRateFactor>
+		<commonality>0.15</commonality>
+		<iconPath>Passions/AS_StonedPassion_Inactive</iconPath>
+		<workBoxIconPath>Passions/AS_StonedPassionGrey</workBoxIconPath>
+		<indicatorString>♣♣</indicatorString>
+		<color>Major</color>
+		<blockingTraitsWithDegree>
+			<DrugDesire>-1</DrugDesire>
+		</blockingTraitsWithDegree>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+		<defName>AS_StonedPassion_Active</defName>
+		<label>stoned (active)</label>
+		<description>This person will get extra learning of this skill after smoking a smokeleaf joint. This person is stoned right now.</description>
+		<learnRateFactor>1.8</learnRateFactor>
+		<commonality>0</commonality>
+		
+		<iconPath>Passions/AS_StonedPassion</iconPath>
+		<workBoxIconPath>Passions/AS_StonedPassionGrey</workBoxIconPath>
+		<indicatorString>♣♣</indicatorString>
+		<color>Major</color>
+		<blockingTraitsWithDegree>
+			<DrugDesire>-1</DrugDesire>
+		</blockingTraitsWithDegree>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+		<isTriggered>true</isTriggered>
+	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
 		<defName>AS_FrozenPassion</defName>
 		<label>frozen</label>
 		<description>This skill was once important to this person, but they have lost all passion in it. They won't be able to learn anymore, but they also won't forget what they have learned.</description>
