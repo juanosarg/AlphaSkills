@@ -42,7 +42,10 @@ namespace AlphaSkills
         public static VSE.Passions.PassionDef AS_CompetitivePassion;
         public static VSE.Passions.PassionDef AS_CompetitivePassion_Active;
 
-       [MayRequireBiotech]
+        public static VSE.Passions.PassionDef AS_StonedPassion;
+        public static VSE.Passions.PassionDef AS_StonedPassion_Active;
+
+        [MayRequireBiotech]
         public static VSE.Passions.PassionDef AS_SanguinePassion;
         [MayRequireBiotech]
         public static VSE.Passions.PassionDef AS_SanguinePassion_Active;

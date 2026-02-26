@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>Defs/HediffDef[defName="SmokeleafHigh"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/HediffDef[defName="SmokeleafHigh"]</xpath>
+			<value>
+				<comps>
+					<li Class="AlphaSkills.HediffCompProperties_StonedPassions">
+        
+      </li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/HediffDef[defName="SmokeleafHigh"]/comps</xpath>
+			<value>
+				<li Class="AlphaSkills.HediffCompProperties_StonedPassions">
+        
+      </li>
+			</value>
+		</match>
+	</Operation>
+</Patch>
+

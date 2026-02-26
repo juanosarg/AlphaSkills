@@ -324,6 +324,7 @@
     <Compile Include="HediffComps\HediffComp_PsychicPassion.cs" />
     <Compile Include="HediffComps\HediffComp_RainyDayPassion.cs" />
     <Compile Include="HediffComps\HediffComp_SanguinePassion.cs" />
+    <Compile Include="HediffComps\HediffComp_StonedPassions.cs" />
     <Compile Include="HediffComps\HediffComp_ToxicPassion.cs" />
     <Compile Include="HediffComps\HediffComp_VengefulPassion.cs" />
     <Compile Include="HediffComps\HediffComp_YouthPassion.cs" />
@@ -338,6 +339,7 @@
     <Compile Include="HediffComps\Properties\HediffCompProperties_PsychicPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_RainyDayPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_SanguinePassion.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_StonedPassions.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_ToxicPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_VengefulPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_YouthPassion.cs" />
