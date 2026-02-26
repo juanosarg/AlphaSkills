@@ -314,6 +314,7 @@
     <Compile Include="Harmony\SkillRecord_LearnRateFactor.cs" />
     <Compile Include="Harmony\VerbProperties_GetDamageFactorFor.cs" />
     <Compile Include="Harmony\Verb_MeleeAttackDamage_DamageInfosToApply.cs" />
+    <Compile Include="HediffComps\HediffComp_CompetitivePassion.cs" />
     <Compile Include="HediffComps\HediffComp_DrunkPassions.cs" />
     <Compile Include="HediffComps\HediffComp_DuncePassion.cs" />
     <Compile Include="HediffComps\HediffComp_ForbiddenPassion.cs" />
@@ -322,10 +323,12 @@
     <Compile Include="HediffComps\HediffComp_NomadicPassion.cs" />
     <Compile Include="HediffComps\HediffComp_PainDrivenPassion.cs" />
     <Compile Include="HediffComps\HediffComp_PsychicPassion.cs" />
+    <Compile Include="HediffComps\HediffComp_RainyDayPassion.cs" />
     <Compile Include="HediffComps\HediffComp_SanguinePassion.cs" />
     <Compile Include="HediffComps\HediffComp_ToxicPassion.cs" />
     <Compile Include="HediffComps\HediffComp_VengefulPassion.cs" />
     <Compile Include="HediffComps\HediffComp_YouthPassion.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_CompetitivePassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_DuncePassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_ForbiddenPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_MoodyPassion.cs" />
@@ -334,14 +337,14 @@
     <Compile Include="HediffComps\Properties\HediffCompProperties_NomadicPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_PainDrivenPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_PsychicPassion.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_RainyDayPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_SanguinePassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_ToxicPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_VengefulPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_YouthPassion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThoughtWorkers\ThoughtWorker_LikeMindedPassion.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="WorldComponents\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

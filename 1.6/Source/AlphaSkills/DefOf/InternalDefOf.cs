@@ -34,6 +34,14 @@ namespace AlphaSkills
         public static VSE.Passions.PassionDef AS_PsychicPassion_Major;
         public static VSE.Passions.PassionDef AS_PsychicPassion_Critical;
 
+        public static VSE.Passions.PassionDef AS_LikeMindedPassion;
+
+        public static VSE.Passions.PassionDef AS_RainyDayPassion;
+        public static VSE.Passions.PassionDef AS_RainyDayPassion_Active;
+
+        public static VSE.Passions.PassionDef AS_CompetitivePassion;
+        public static VSE.Passions.PassionDef AS_CompetitivePassion_Active;
+
        [MayRequireBiotech]
         public static VSE.Passions.PassionDef AS_SanguinePassion;
         [MayRequireBiotech]

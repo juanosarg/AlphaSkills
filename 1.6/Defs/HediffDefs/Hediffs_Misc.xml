@@ -259,4 +259,78 @@
 			</li>
 		</stages>
 	</HediffDef>
+	<HediffDef>
+		<defName>AS_RainyDayPassion</defName>
+		<label>rainy day passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having a rainy day passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_RainyDayPassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AS_CompetitivePassion</defName>
+		<label>competitive passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having a competitive passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_CompetitivePassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AS_TraumaticPassion</defName>
+		<label>traumatic passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having a traumatic passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1.0</maxSeverity>
+		<initialSeverity>0.1</initialSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_DuncePassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<minSeverity>0.1</minSeverity>
+			</li>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<minSeverity>0.2</minSeverity>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

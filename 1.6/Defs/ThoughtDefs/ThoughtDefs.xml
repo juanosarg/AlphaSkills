@@ -31,4 +31,33 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AS_LikeMindedPassion</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>AlphaSkills.ThoughtWorker_LikeMindedPassion</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>like-minded passions</label>
+				<baseOpinionOffset>15</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AS_TraumaticPassion</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>AS_TraumaticPassion</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<visible>false</visible>
+			</li>
+			<li>
+				<label>traumatic work</label>
+				<description>I have a past traumatic experience regarding this job, and I hate doing it.</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 </Defs>

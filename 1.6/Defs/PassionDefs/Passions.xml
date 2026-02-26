@@ -155,6 +155,7 @@
 		<description>Fueled by a desire for revenge. Gains extra learning for three days when working after a colony loss (like a pawn death). Colony has recently experienced a loss.</description>
 		<learnRateFactor>3</learnRateFactor>
 		<commonality>0</commonality>
+		<isTriggered>true</isTriggered>
 		<inspirationCommonality>7.5</inspirationCommonality>
 		<iconPath>Passions/AS_VengefulPassion</iconPath>
 		<workBoxIconPath>Passions/AS_VengefulPassionGrey</workBoxIconPath>
@@ -203,6 +204,7 @@
 		<workBoxIconPath>Passions/AS_NomadicPassionGrey</workBoxIconPath>
 		<indicatorString>➶➶</indicatorString>
 		<color>Major</color>
+		<isTriggered>true</isTriggered>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 	</VSE.Passions.PassionDef>
 	
@@ -225,6 +227,7 @@
 		<description>Passion in this skill will fluctuate every day. Feeling apathetic towards this skill today.</description>
 		<learnRateFactor>0.1</learnRateFactor>
 		<commonality>0</commonality>
+		<isTriggered>true</isTriggered>
 		<iconPath>Passions/AS_MoodyPassion_Apathy</iconPath>
 		<workBoxIconPath>Passions/AS_MoodyPassionGrey</workBoxIconPath>
 		<indicatorString>▲▲</indicatorString>	
@@ -237,6 +240,7 @@
 		<description>Passion in this skill will fluctuate every day.</description>
 		<learnRateFactor>0.35</learnRateFactor>
 		<commonality>0</commonality>
+		<isTriggered>true</isTriggered>
 		<iconPath>Passions/AS_MoodyPassion_NoPassion</iconPath>
 		<workBoxIconPath>Passions/AS_MoodyPassionGrey</workBoxIconPath>
 		<indicatorString>▲▲</indicatorString>	
@@ -252,6 +256,7 @@
 		<workBoxIconPath>Passions/AS_MoodyPassionGrey</workBoxIconPath>
 		<indicatorString>▲▲</indicatorString>	
 		<color>Major</color>
+		<isTriggered>true</isTriggered>
 		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
 	</VSE.Passions.PassionDef>
 	<VSE.Passions.PassionDef>
@@ -264,6 +269,7 @@
 		<workBoxIconPath>Passions/AS_MoodyPassionGrey</workBoxIconPath>
 		<indicatorString>▲▲</indicatorString>	
 		<color>Major</color>
+		<isTriggered>true</isTriggered>
 		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
 	</VSE.Passions.PassionDef>
 	<VSE.Passions.PassionDef>
@@ -277,6 +283,85 @@
 		<workBoxIconPath>Passions/AS_DuncePassionGrey</workBoxIconPath>
 		<indicatorString>▲▲</indicatorString>
 		<hediffToAdd>AS_DuncePassion</hediffToAdd>		
+		<color>Minor</color>
+		<passionToIncreaseTo>Minor</passionToIncreaseTo>
+	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+		<defName>AS_LikeMindedPassion</defName>
+		<label>like-minded</label>
+		<description>Opinion of other colonists with passion in this skill will be positively affected.</description>
+		<learnRateFactor>1</learnRateFactor>
+		<commonality>0.5</commonality>
+		<iconPath>Passions/AS_LikeMindedPassion</iconPath>
+		<workBoxIconPath>Passions/AS_LikeMindedPassionGrey</workBoxIconPath>
+		<indicatorString>▲▲</indicatorString>
+		<color>Major</color>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+		<defName>AS_RainyDayPassion</defName>
+		<label>rainy day</label>
+		<description>This skill is learned faster when raining.</description>
+		<learnRateFactor>1</learnRateFactor>
+		<commonality>0.15</commonality>
+		<iconPath>Passions/AS_RainyDayPassion_Off</iconPath>
+		<workBoxIconPath>Passions/AS_RainyDayPassionGrey</workBoxIconPath>
+		<indicatorString>♣♣</indicatorString>
+		<hediffToAdd>AS_RainyDayPassion</hediffToAdd>	
+		<color>Major</color>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+		<defName>AS_RainyDayPassion_Active</defName>
+		<label>rainy day (raining)</label>
+		<description>This skill is learned faster when raining.</description>
+		<learnRateFactor>2</learnRateFactor>
+		<commonality>0</commonality>
+		<iconPath>Passions/AS_RainyDayPassion</iconPath>
+		<workBoxIconPath>Passions/AS_RainyDayPassionGrey</workBoxIconPath>
+		<indicatorString>♣♣</indicatorString>
+		<color>Major</color>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+		<isTriggered>true</isTriggered>
+	</VSE.Passions.PassionDef>
+	
+	<VSE.Passions.PassionDef>
+		<defName>AS_CompetitivePassion</defName>
+		<label>competitive</label>
+		<description>Passion in this skill is driven by a desire to be the best. This person is currently the best at this skill in the colony, so they don't feel as driven to improve.</description>
+		<learnRateFactor>0.25</learnRateFactor>
+		<commonality>0.15</commonality>
+		<iconPath>Passions/AS_CompetitivePassion_Off</iconPath>
+		<workBoxIconPath>Passions/AS_CompetitivePassionGrey</workBoxIconPath>
+		<indicatorString>♣♣</indicatorString>
+		<hediffToAdd>AS_CompetitivePassion</hediffToAdd>	
+		<color>Major</color>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+		<defName>AS_CompetitivePassion_Active</defName>
+		<label>competitive (active)</label>
+		<description>Passion in this skill is driven by a desire to be the best.</description>
+		<learnRateFactor>2.5</learnRateFactor>
+		<commonality>0</commonality>	
+		<iconPath>Passions/AS_CompetitivePassion</iconPath>
+		<workBoxIconPath>Passions/AS_CompetitivePassionGrey</workBoxIconPath>
+		<indicatorString>♣♣</indicatorString>
+		<color>Major</color>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+		<isTriggered>true</isTriggered>
+	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+		<defName>AS_TraumaticPassion</defName>
+		<label>traumatic</label>
+		<description>This person hates this skill, but feels compelled to learn due to a traumatic experience.</description>
+		<learnRateFactor>1</learnRateFactor>
+		<commonality>0.25</commonality>
+		<isBad>true</isBad>
+		<iconPath>Passions/AS_TraumaticPassion</iconPath>
+		<workBoxIconPath>Passions/AS_TraumaticPassionGrey</workBoxIconPath>
+		<indicatorString>▲▲</indicatorString>
+		<hediffToAdd>AS_TraumaticPassion</hediffToAdd>		
 		<color>Minor</color>
 		<passionToIncreaseTo>Minor</passionToIncreaseTo>
 	</VSE.Passions.PassionDef>
