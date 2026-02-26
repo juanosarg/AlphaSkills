@@ -311,7 +311,6 @@
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\Mineable_TrySpawnYield.cs" />
     <Compile Include="Harmony\PawnDiedOrDownedThoughtsUtility_TryGiveThoughts.cs" />
-    <Compile Include="Harmony\SkillRecord_LearnRateFactor.cs" />
     <Compile Include="Harmony\VerbProperties_GetDamageFactorFor.cs" />
     <Compile Include="Harmony\Verb_MeleeAttackDamage_DamageInfosToApply.cs" />
     <Compile Include="HediffComps\HediffComp_CompetitivePassion.cs" />
