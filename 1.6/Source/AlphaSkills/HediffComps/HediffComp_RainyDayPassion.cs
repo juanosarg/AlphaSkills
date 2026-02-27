@@ -16,13 +16,13 @@ namespace AlphaSkills
         {
             base.CompPostTick(ref severityAdjustment);
 
-            if (this.parent.pawn.IsHashIntervalTick(1000) && this.parent.pawn.Spawned && this.parent.pawn.Map != null)
+            if (Pawn.IsHashIntervalTick(1000) && Pawn.Spawned && Pawn.Map != null)
             {
 
 
-                if (parent.pawn.Map.weatherManager?.curWeather?.rainRate > 0)
+                if (Pawn.Map.weatherManager?.curWeather?.rainRate > 0)
                 {
-                    foreach (SkillRecord skill in parent.pawn.skills.skills)
+                    foreach (SkillRecord skill in Pawn.skills.skills)
                     {
                         if (skill.passion == (Passion)InternalDefOf.AS_RainyDayPassion.index)
                         {
@@ -34,7 +34,7 @@ namespace AlphaSkills
                 }
                 else
                 {
-                    foreach (SkillRecord skill in parent.pawn.skills.skills)
+                    foreach (SkillRecord skill in Pawn.skills.skills)
                     {
                         if (skill.passion == (Passion)InternalDefOf.AS_RainyDayPassion_Active.index)
                         {

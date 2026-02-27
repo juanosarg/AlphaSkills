@@ -18,10 +18,10 @@ namespace AlphaSkills
         {
             base.CompPostTick(ref severityAdjustment);
 
-            if (this.parent.pawn.IsHashIntervalTick(60000) && this.parent.pawn.Spawned)
+            if (Pawn.IsHashIntervalTick(60000) && Pawn.Spawned)
             {
 
-                foreach (SkillRecord skill in parent.pawn.skills.skills)
+                foreach (SkillRecord skill in Pawn.skills.skills)
                 {
                     if (skill.passion == (Passion)InternalDefOf.AS_MoodyPassion.index || skill.passion == (Passion)InternalDefOf.AS_MoodyPassion_Apathy.index
                         || skill.passion == (Passion)InternalDefOf.AS_MoodyPassion_NoPassion.index || skill.passion == (Passion)InternalDefOf.AS_MoodyPassion_Major.index

@@ -320,6 +320,7 @@
     <Compile Include="HediffComps\HediffComp_MoodyPassion.cs" />
     <Compile Include="HediffComps\HediffComp_NightPassion.cs" />
     <Compile Include="HediffComps\HediffComp_NomadicPassion.cs" />
+    <Compile Include="HediffComps\HediffComp_NudistPassion.cs" />
     <Compile Include="HediffComps\HediffComp_PainDrivenPassion.cs" />
     <Compile Include="HediffComps\HediffComp_PsychicPassion.cs" />
     <Compile Include="HediffComps\HediffComp_RainyDayPassion.cs" />
@@ -335,6 +336,7 @@
     <Compile Include="HediffComps\Properties\HediffCompProperties_NightPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_DrunkPassions.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_NomadicPassion.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_NudistPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_PainDrivenPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_PsychicPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_RainyDayPassion.cs" />

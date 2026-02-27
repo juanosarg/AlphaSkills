@@ -13,9 +13,9 @@ namespace AlphaSkills
 
         public override void CompPostPostAdd(DamageInfo? dinfo)
         {
-            if (parent.pawn?.skills?.skills != null)
+            if (Pawn?.skills?.skills != null)
             {
-                foreach (SkillRecord skill in parent.pawn.skills.skills)
+                foreach (SkillRecord skill in Pawn.skills.skills)
                 {
                     if (skill.passion == (Passion)InternalDefOf.AS_DrunkenPassion.index)
                     {
@@ -45,9 +45,9 @@ namespace AlphaSkills
 
         public void RevertPassion()
         {
-            if (parent.pawn?.skills?.skills != null)
+            if (Pawn?.skills?.skills != null)
             {
-                foreach (SkillRecord skill in parent.pawn.skills.skills)
+                foreach (SkillRecord skill in Pawn.skills.skills)
                 {
                     if (skill.passion == (Passion)InternalDefOf.AS_DrunkenPassion_Active.index)
                     {

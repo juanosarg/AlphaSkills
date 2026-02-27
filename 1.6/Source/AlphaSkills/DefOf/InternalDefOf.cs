@@ -45,6 +45,9 @@ namespace AlphaSkills
         public static VSE.Passions.PassionDef AS_StonedPassion;
         public static VSE.Passions.PassionDef AS_StonedPassion_Active;
 
+        public static VSE.Passions.PassionDef AS_NudistPassion;
+        public static VSE.Passions.PassionDef AS_NudistPassion_Active;
+
         [MayRequireBiotech]
         public static VSE.Passions.PassionDef AS_SanguinePassion;
         [MayRequireBiotech]

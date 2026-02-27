@@ -16,10 +16,10 @@ namespace AlphaSkills
         {
             base.CompPostTick(ref severityAdjustment);
 
-            if (this.parent.pawn.IsHashIntervalTick(6000))
+            if (Pawn.IsHashIntervalTick(6000))
             {
                 bool flag = false;
-                foreach (SkillRecord skill in parent.pawn.skills.skills)
+                foreach (SkillRecord skill in Pawn.skills.skills)
                 {
                     if (skill.passion == (Passion)InternalDefOf.AS_ForbiddenPassion.index)
                     {
@@ -28,7 +28,7 @@ namespace AlphaSkills
                     }
                 }
                 if (!flag) {
-                    this.parent.pawn.health.RemoveHediff(parent);
+                    Pawn.health.RemoveHediff(parent);
                 }
 
 

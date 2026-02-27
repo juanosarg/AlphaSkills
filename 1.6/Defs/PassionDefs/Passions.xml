@@ -397,4 +397,34 @@
 		<color>Minor</color>
 		<passionToIncreaseTo>Minor</passionToIncreaseTo>
 	</VSE.Passions.PassionDef>
+	
+	<VSE.Passions.PassionDef>
+		<defName>AS_NudistPassion</defName>
+		<label>nudist</label>
+		<description>This person will learn this skill much faster, but only when nude.</description>
+		<learnRateFactor>0.5</learnRateFactor>
+		<commonality>0.5</commonality>
+		<iconPath>Passions/AS_NudistPassion</iconPath>
+		<workBoxIconPath>Passions/AS_NudistPassionGrey</workBoxIconPath>
+		<indicatorString>➶➶</indicatorString>
+		<hediffToAdd>AS_NudistPassion</hediffToAdd>
+		<color>Major</color>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
+		<requiredTraits>
+			<li>Nudist</li>
+		</requiredTraits>
+	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+		<defName>AS_NudistPassion_Active</defName>
+		<label>nudist (active)</label>
+		<description>Thrives when traveling. Gains extra learning when on caravans or during expeditions. Currently away from home.</description>
+		<learnRateFactor>2</learnRateFactor>
+		<commonality>0</commonality>	
+		<iconPath>Passions/AS_NudistPassion_Active</iconPath>
+		<workBoxIconPath>Passions/AS_NudistPassionGrey</workBoxIconPath>
+		<indicatorString>➶➶</indicatorString>
+		<color>Major</color>
+		<isTriggered>true</isTriggered>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
+	</VSE.Passions.PassionDef>
 </Defs>

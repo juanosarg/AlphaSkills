@@ -16,11 +16,11 @@ namespace AlphaSkills
         {
             base.CompPostTick(ref severityAdjustment);
 
-            if (this.parent.pawn.IsHashIntervalTick(1000) && this.parent.pawn.Spawned && this.parent.pawn.Map!=null)
+            if (Pawn.IsHashIntervalTick(1000) && Pawn.Spawned && Pawn.Map!=null)
             {
-                if (parent.pawn.genes?.HasActiveGene(InternalDefOf.PollutionRush) != true)
+                if (Pawn.genes?.HasActiveGene(InternalDefOf.PollutionRush) != true)
                 {
-                    foreach (SkillRecord skill in parent.pawn.skills.skills)
+                    foreach (SkillRecord skill in Pawn.skills.skills)
                     {
                         if (skill.passion == (Passion)InternalDefOf.AS_ToxicPassion.index || skill.passion == (Passion)InternalDefOf.AS_ToxicPassion_Active.index)
                         {
@@ -28,13 +28,13 @@ namespace AlphaSkills
                             LearnRateFactorCache.ClearCacheFor(skill);
                         }
                     }
-                    this.parent.pawn.health.RemoveHediff(parent);
+                    Pawn.health.RemoveHediff(parent);
                 }
 
 
-                if (parent.pawn.Position.IsPolluted(parent.pawn.Map))
+                if (Pawn.Position.IsPolluted(Pawn.Map))
                 {
-                    foreach (SkillRecord skill in parent.pawn.skills.skills)
+                    foreach (SkillRecord skill in Pawn.skills.skills)
                     {
                         if (skill.passion == (Passion)InternalDefOf.AS_ToxicPassion.index)
                         {
@@ -46,7 +46,7 @@ namespace AlphaSkills
                 }
                 else
                 {
-                    foreach (SkillRecord skill in parent.pawn.skills.skills)
+                    foreach (SkillRecord skill in Pawn.skills.skills)
                     {
                         if (skill.passion == (Passion)InternalDefOf.AS_ToxicPassion_Active.index)
                         {

@@ -16,13 +16,13 @@ namespace AlphaSkills
         {
             base.CompPostTick(ref severityAdjustment);
 
-            if (this.parent.pawn.IsHashIntervalTick(6000) && this.parent.pawn.Spawned)
+            if (Pawn.IsHashIntervalTick(6000) && Pawn.Spawned)
             {
 
                 float psychicsensitivity = Pawn.GetStatValue(StatDefOf.PsychicSensitivity);
 
 
-                foreach (SkillRecord skill in parent.pawn.skills.skills)
+                foreach (SkillRecord skill in Pawn.skills.skills)
                 {
                     if (skill.passion == (Passion)InternalDefOf.AS_PsychicPassion_Nullified.index ||
                         skill.passion == (Passion)InternalDefOf.AS_PsychicPassion.index ||

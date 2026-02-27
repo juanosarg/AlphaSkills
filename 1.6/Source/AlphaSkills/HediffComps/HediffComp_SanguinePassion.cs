@@ -16,11 +16,11 @@ namespace AlphaSkills
         {
             base.CompPostTick(ref severityAdjustment);
 
-            if (this.parent.pawn.IsHashIntervalTick(1000) && this.parent.pawn.Spawned)
+            if (Pawn.IsHashIntervalTick(1000) && Pawn.Spawned)
             {
-                if (parent.pawn.genes?.HasActiveGene(GeneDefOf.Hemogenic) != true)
+                if (Pawn.genes?.HasActiveGene(GeneDefOf.Hemogenic) != true)
                 {
-                    foreach (SkillRecord skill in parent.pawn.skills.skills)
+                    foreach (SkillRecord skill in Pawn.skills.skills)
                     {
                         if (skill.passion == (Passion)InternalDefOf.AS_SanguinePassion.index || skill.passion == (Passion)InternalDefOf.AS_SanguinePassion_Active.index)
                         {
@@ -28,15 +28,15 @@ namespace AlphaSkills
                             LearnRateFactorCache.ClearCacheFor(skill);
                         }
                     }
-                    this.parent.pawn.health.RemoveHediff(parent);
+                    Pawn.health.RemoveHediff(parent);
                 }
 
-                Gene_Hemogen firstGeneOfType = parent.pawn.genes?.GetFirstGeneOfType<Gene_Hemogen>();
+                Gene_Hemogen firstGeneOfType = Pawn.genes?.GetFirstGeneOfType<Gene_Hemogen>();
                 if (firstGeneOfType != null)
                 {
                     if (firstGeneOfType.Value > 0.5)
                     {
-                        foreach (SkillRecord skill in parent.pawn.skills.skills)
+                        foreach (SkillRecord skill in Pawn.skills.skills)
                         {
                             if (skill.passion == (Passion)InternalDefOf.AS_SanguinePassion.index)
                             {
@@ -48,7 +48,7 @@ namespace AlphaSkills
                     }
                     else
                     {
-                        foreach (SkillRecord skill in parent.pawn.skills.skills)
+                        foreach (SkillRecord skill in Pawn.skills.skills)
                         {
                             if (skill.passion == (Passion)InternalDefOf.AS_SanguinePassion_Active.index)
                             {

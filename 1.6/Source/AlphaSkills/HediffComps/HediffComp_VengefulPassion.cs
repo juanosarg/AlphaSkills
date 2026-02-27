@@ -18,7 +18,7 @@ namespace AlphaSkills
             isActive = true;
             coolDownCounter = coolDown;
 
-            foreach (SkillRecord skill in parent.pawn.skills.skills)
+            foreach (SkillRecord skill in Pawn.skills.skills)
             {
                 if (skill.passion == (Passion)InternalDefOf.AS_VengefulPassion.index)
                 {
@@ -39,7 +39,7 @@ namespace AlphaSkills
                 coolDownCounter--;
                 if( coolDownCounter < 0)
                 {
-                    foreach (SkillRecord skill in parent.pawn.skills.skills)
+                    foreach (SkillRecord skill in Pawn.skills.skills)
                     {
                         if (skill.passion == (Passion)InternalDefOf.AS_VengefulPassion_Active.index)
                         {

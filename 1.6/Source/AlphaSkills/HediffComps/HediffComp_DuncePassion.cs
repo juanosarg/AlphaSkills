@@ -18,7 +18,7 @@ namespace AlphaSkills
                 this.parent.Severity = 0.1f;
                 if (Pawn.Map != null && Pawn.jobs.curJob!=null)
                 {
-                    foreach (SkillRecord skill in parent.pawn.skills.skills)
+                    foreach (SkillRecord skill in Pawn.skills.skills)
                     {
                         if (Pawn.jobs.curDriver?.ActiveSkill == skill.def)
                         {

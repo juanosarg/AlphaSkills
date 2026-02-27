@@ -15,11 +15,11 @@ namespace AlphaSkills
         {
             base.CompPostTick(ref severityAdjustment);
 
-            if (this.parent.pawn.IsHashIntervalTick(1000) && this.parent.pawn.Spawned)
+            if (Pawn.IsHashIntervalTick(1000) && Pawn.Spawned)
             {
-                if((GenLocalDate.HourInteger(this.parent.pawn) >= 20 || GenLocalDate.HourInteger(this.parent.pawn) <= 5))
+                if((GenLocalDate.HourInteger(Pawn) >= 20 || GenLocalDate.HourInteger(Pawn) <= 5))
                 {
-                    foreach (SkillRecord skill in parent.pawn.skills.skills)
+                    foreach (SkillRecord skill in Pawn.skills.skills)
                     {
                         if (skill.passion == (Passion)InternalDefOf.AS_NightPassion.index)
                         {
@@ -33,7 +33,7 @@ namespace AlphaSkills
                 }
                 else
                 {
-                    foreach (SkillRecord skill in parent.pawn.skills.skills)
+                    foreach (SkillRecord skill in Pawn.skills.skills)
                     {
                         if (skill.passion == (Passion)InternalDefOf.AS_NightPassion_Active.index)
                         {

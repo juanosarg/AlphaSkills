@@ -6,24 +6,20 @@ namespace AlphaSkills
 {
     public class HediffComp_PainDrivenPassion : HediffComp
     {
-
-
         public HediffCompProperties_PainDrivenPassion Props => (HediffCompProperties_PainDrivenPassion)props;
-
-
 
         public override void CompPostTick(ref float severityAdjustment)
         {
             base.CompPostTick(ref severityAdjustment);
 
-            if (this.parent.pawn.IsHashIntervalTick(1000) && this.parent.pawn.Spawned)
+            if (Pawn.IsHashIntervalTick(1000) && Pawn.Spawned)
             {
 
-                float painTotal = parent.pawn.health.hediffSet.PainTotal;
+                float painTotal = Pawn.health.hediffSet.PainTotal;
 
                 if (painTotal > 0.3)
                     {
-                        foreach (SkillRecord skill in parent.pawn.skills.skills)
+                        foreach (SkillRecord skill in Pawn.skills.skills)
                         {
                             if (skill.passion == (Passion)InternalDefOf.AS_PainDrivenPassion.index)
                             {
@@ -35,7 +31,7 @@ namespace AlphaSkills
                     }
                     else
                     {
-                        foreach (SkillRecord skill in parent.pawn.skills.skills)
+                        foreach (SkillRecord skill in Pawn.skills.skills)
                         {
                             if (skill.passion == (Passion)InternalDefOf.AS_PainDrivenPassion_Active.index)
                             {
@@ -45,14 +41,7 @@ namespace AlphaSkills
 
                         }
                     }
-                
-
-
-
-
-            }
-
-
+              }
         }
     }
 }

@@ -6,24 +6,18 @@ namespace AlphaSkills
 {
     public class HediffComp_NomadicPassion : HediffComp
     {
-
-
         public HediffCompProperties_NomadicPassion Props => (HediffCompProperties_NomadicPassion)props;
-
-
 
         public override void CompPostTick(ref float severityAdjustment)
         {
             base.CompPostTick(ref severityAdjustment);
 
-            if (this.parent.pawn.IsHashIntervalTick(1000))
+            if (Pawn.IsHashIntervalTick(1000))
             {
-                
-
-
-                if (parent.pawn.Map is null ||! parent.pawn.Map.IsPlayerHome)
+   
+                if (Pawn.Map is null ||! Pawn.Map.IsPlayerHome)
                 {
-                    foreach (SkillRecord skill in parent.pawn.skills.skills)
+                    foreach (SkillRecord skill in Pawn.skills.skills)
                     {
                         if (skill.passion == (Passion)InternalDefOf.AS_NomadicPassion.index)
                         {
@@ -35,7 +29,7 @@ namespace AlphaSkills
                 }
                 else
                 {
-                    foreach (SkillRecord skill in parent.pawn.skills.skills)
+                    foreach (SkillRecord skill in Pawn.skills.skills)
                     {
                         if (skill.passion == (Passion)InternalDefOf.AS_NomadicPassion_Active.index)
                         {
@@ -46,13 +40,7 @@ namespace AlphaSkills
                     }
                 }
 
-
-
-
-
             }
-
-
         }
     }
 }
