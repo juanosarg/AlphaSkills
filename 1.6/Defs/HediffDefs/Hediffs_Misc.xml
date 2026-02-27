@@ -356,4 +356,96 @@
 			</li>
 		</stages>
 	</HediffDef>
+	<HediffDef>
+		<defName>AS_IntimatePassion_Hediff</defName>
+		<label>intimate passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having an intimate passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_IntimatePassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AS_IdeologicalPassion_Hediff</defName>
+		<label>ideological passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having an ideological passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_IdeologicalPassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AS_BlindPassion</defName>
+		<label>blind passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having a blind passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_BlindPassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AS_TranshumanistPassion</defName>
+		<label>transhumanist passion</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This hediff handles the pawn having a transhumanist passion. It should be hidden to the player.</description>
+		<tendable>false</tendable>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="AlphaSkills.HediffCompProperties_TranshumanistPassion">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

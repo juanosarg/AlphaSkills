@@ -32,6 +32,117 @@
 		<isTriggered>true</isTriggered>
     </VSE.Passions.PassionDef>
 	
+	<VSE.Passions.PassionDef>
+		<defName>AS_IdeologicalPassion</defName>
+		<label>ideological</label>
+		<description>This colonist will learn this skill faster after being part of an ideological ritual (any ritual with a quality based outcome).</description>
+		<learnRateFactor>1</learnRateFactor>
+		<commonality>0.15</commonality>
+		<iconPath>Passions/AS_IdeologicalPassion</iconPath>
+		<workBoxIconPath>Passions/AS_IdeologicalPassionGrey</workBoxIconPath>
+		<indicatorString>❍❍</indicatorString>
+		<color>Major</color>
+		<hediffToAdd>AS_IdeologicalPassion_Hediff</hediffToAdd>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
+	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+		<defName>AS_IdeologicalPassion_Active</defName>
+		<label>ideological (active)</label>
+		<description>This colonist will learn this skill faster after being part of an ideological ritual (any ritual with a quality based outcome).</description>
+		<learnRateFactor>1.75</learnRateFactor>
+		<commonality>0</commonality>
+		<isTriggered>true</isTriggered>
+		<iconPath>Passions/AS_IdeologicalPassion_Active</iconPath>
+		<workBoxIconPath>Passions/AS_IdeologicalPassionGrey</workBoxIconPath>
+		<indicatorString>❍❍</indicatorString>
+		<color>Major</color>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
+	</VSE.Passions.PassionDef>
+	
+	<VSE.Passions.PassionDef>
+		<defName>AS_BlindPassion_Elevated</defName>
+		<label>blind, elevated</label>
+		<description>This colonist believes that the blind stand pure above the sighted, and will learn this skill faster if blinded.</description>
+		<learnRateFactor>0.5</learnRateFactor>
+		<commonality>0.5</commonality>
+		<iconPath>Passions/AS_BlindPassion</iconPath>
+		<workBoxIconPath>Passions/AS_BlindPassionGrey</workBoxIconPath>
+		<indicatorString>❍❍</indicatorString>
+		<color>Minor</color>
+		<hediffToAdd>AS_BlindPassion</hediffToAdd>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
+		<requiredPrecepts><li>Blindness_Elevated</li></requiredPrecepts>
+	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+		<defName>AS_BlindPassion_Elevated_Active</defName>
+		<label>blind, elevated (active)</label>
+		<description>This colonist believes that the blind stand pure above the sighted, and will learn this skill faster if blinded.</description>
+		<learnRateFactor>1.5</learnRateFactor>
+		<commonality>0</commonality>
+		<isTriggered>true</isTriggered>
+		<iconPath>Passions/AS_BlindPassion_Active</iconPath>
+		<workBoxIconPath>Passions/AS_BlindPassionGrey</workBoxIconPath>
+		<indicatorString>❍❍</indicatorString>
+		<color>Major</color>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
+	</VSE.Passions.PassionDef>
+	
+	<VSE.Passions.PassionDef>
+		<defName>AS_BlindPassion_Sublime</defName>
+		<label>blind, sublime</label>
+		<description>This colonist believes that only the blind can be truly noble, for the sighted find their minds clouded by physical vision, and will learn this skill faster if blinded. This colonist is biologically blind now.</description>
+		<learnRateFactor>1</learnRateFactor>
+		<commonality>0.5</commonality>
+		<iconPath>Passions/AS_BlindPassion</iconPath>
+		<workBoxIconPath>Passions/AS_BlindPassionGrey</workBoxIconPath>
+		<indicatorString>❍❍</indicatorString>
+		<color>Major</color>
+		<hediffToAdd>AS_BlindPassion</hediffToAdd>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+		<requiredPrecepts><li>Blindness_Sublime</li></requiredPrecepts>
+	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+		<defName>AS_BlindPassion_Sublime_Active</defName>
+		<label>blind, sublime (active)</label>
+		<description>This colonist believes that only the blind can be truly noble, for the sighted find their minds clouded by physical vision, and will learn this skill faster if blinded. This colonist is biologically blind now.</description>
+		<learnRateFactor>2</learnRateFactor>
+		<commonality>0</commonality>
+		<isTriggered>true</isTriggered>
+		<iconPath>Passions/AS_BlindPassion_Active</iconPath>
+		<workBoxIconPath>Passions/AS_BlindPassionGrey</workBoxIconPath>
+		<indicatorString>❍❍</indicatorString>
+		<color>Major</color>
+		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
+	</VSE.Passions.PassionDef>
+	
+	<VSE.Passions.PassionDef>
+		<defName>AS_TranshumanistPassion</defName>
+		<label>transhumanist</label>
+		<description>This colonist believes in the superiority of bionics and other artificial enhancements, and will learn this skill faster if provided with artificial body parts.</description>
+		<learnRateFactor>0.5</learnRateFactor>
+		<commonality>0.5</commonality>
+		<iconPath>Passions/AS_TranshumanistPassion</iconPath>
+		<workBoxIconPath>Passions/AS_TranshumanistPassionGrey</workBoxIconPath>
+		<indicatorString>❍❍</indicatorString>
+		<color>Minor</color>
+		<hediffToAdd>AS_TranshumanistPassion</hediffToAdd>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
+		<requiredPrecepts><li>BodyMod_Approved</li></requiredPrecepts>
+	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+		<defName>AS_TranshumanistPassion_Active</defName>
+		<label>transhumanist (active)</label>
+		<description>This colonist believes in the superiority of bionics and other artificial enhancements, and will learn this skill faster if provided with artificial body parts.</description>
+		<learnRateFactor>1.5</learnRateFactor>
+		<commonality>0</commonality>
+		<isTriggered>true</isTriggered>
+		<iconPath>Passions/AS_TranshumanistPassion_Active</iconPath>
+		<workBoxIconPath>Passions/AS_TranshumanistPassionGrey</workBoxIconPath>
+		<indicatorString>❍❍</indicatorString>
+		<color>Major</color>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
+	</VSE.Passions.PassionDef>
+	
 	
 	
 </Defs>

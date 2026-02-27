@@ -27,7 +27,7 @@
 			<li>
 				<label>doing enjoyable work</label>
 				<description>I'm not very good at this job, but I enjoy it so much!</description>
-				<baseMoodEffect>20</baseMoodEffect>
+				<baseMoodEffect>25</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

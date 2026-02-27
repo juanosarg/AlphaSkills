@@ -427,4 +427,32 @@
 		<isTriggered>true</isTriggered>
 		<passionToIncreaseTo>Major</passionToIncreaseTo>
 	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+		<defName>AS_IntimatePassion</defName>
+		<label>intimate</label>
+		<description>This colonist feels more inclined to learn this skill after experiencing some lovin'.</description>
+		<learnRateFactor>0.75</learnRateFactor>
+		<commonality>0.15</commonality>
+		<iconPath>Passions/AS_IntimatePassion</iconPath>
+		<workBoxIconPath>Passions/AS_IntimatePassionGrey</workBoxIconPath>
+		<indicatorString>❍❍</indicatorString>
+		<color>Major</color>
+		<hediffToAdd>AS_IntimatePassion_Hediff</hediffToAdd>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
+	</VSE.Passions.PassionDef>
+	<VSE.Passions.PassionDef>
+		<defName>AS_IntimatePassion_Active</defName>
+		<label>intimate (active)</label>
+		<description>This colonist feels more inclined to learn this skill after experiencing some lovin'.</description>
+		<learnRateFactor>1.75</learnRateFactor>
+		<commonality>0</commonality>
+		<isTriggered>true</isTriggered>
+		<iconPath>Passions/AS_IntimatePassion_Active</iconPath>
+		<workBoxIconPath>Passions/AS_IntimatePassionGrey</workBoxIconPath>
+		<indicatorString>❍❍</indicatorString>
+		<color>Major</color>
+		<passionToIncreaseTo>Major</passionToIncreaseTo>
+	</VSE.Passions.PassionDef>
+	
+	
 </Defs>

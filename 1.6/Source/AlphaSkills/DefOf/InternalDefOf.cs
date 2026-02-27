@@ -48,6 +48,9 @@ namespace AlphaSkills
         public static VSE.Passions.PassionDef AS_NudistPassion;
         public static VSE.Passions.PassionDef AS_NudistPassion_Active;
 
+        public static VSE.Passions.PassionDef AS_IntimatePassion;
+        public static VSE.Passions.PassionDef AS_IntimatePassion_Active;
+
         [MayRequireBiotech]
         public static VSE.Passions.PassionDef AS_SanguinePassion;
         [MayRequireBiotech]
@@ -64,11 +67,29 @@ namespace AlphaSkills
         public static VSE.Passions.PassionDef AS_PainDrivenPassion;
         [MayRequireIdeology]
         public static VSE.Passions.PassionDef AS_PainDrivenPassion_Active;
+        [MayRequireIdeology]
+        public static VSE.Passions.PassionDef AS_IdeologicalPassion;
+        [MayRequireIdeology]
+        public static VSE.Passions.PassionDef AS_IdeologicalPassion_Active;
+        [MayRequireIdeology]
+        public static VSE.Passions.PassionDef AS_BlindPassion_Elevated;
+        [MayRequireIdeology]
+        public static VSE.Passions.PassionDef AS_BlindPassion_Elevated_Active;
+        [MayRequireIdeology]
+        public static VSE.Passions.PassionDef AS_BlindPassion_Sublime;
+        [MayRequireIdeology]
+        public static VSE.Passions.PassionDef AS_BlindPassion_Sublime_Active;
+        [MayRequireIdeology]
+        public static VSE.Passions.PassionDef AS_TranshumanistPassion;
+        [MayRequireIdeology]
+        public static VSE.Passions.PassionDef AS_TranshumanistPassion_Active;
 
         [MayRequireBiotech]
         public static GeneDef PollutionRush;
 
         public static HediffDef AS_VengefulPassion_Hediff;
+        public static HediffDef AS_IntimatePassion_Hediff;
+        public static HediffDef AS_IdeologicalPassion_Hediff;
 
         public static StatDef AS_MortarDamageFactor;
         public static StatDef AS_CraftingYield;
