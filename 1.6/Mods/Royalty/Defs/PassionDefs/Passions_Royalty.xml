@@ -7,10 +7,11 @@
         <label>psychic (minor)</label>
         <description>This passion is fueled by psychic power. They learn faster with higher psychic sensitivity.</description>
         <learnRateFactor>0.5</learnRateFactor>
+		<inspirationCommonality>1.5</inspirationCommonality>
 		<commonality>0.5</commonality>	
         <iconPath>Passions/AS_PsychicPassion_Minor</iconPath>
         <workBoxIconPath>Passions/AS_PsychicPassionGrey</workBoxIconPath>
-        <indicatorString>✹✹</indicatorString>
+        <indicatorString>★</indicatorString>
         <color>Minor</color>
 		<hediffToAdd>AS_PsychicPassion</hediffToAdd>
 		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
@@ -20,12 +21,13 @@
 		<label>psychic (nullified)</label>
 		<description>This passion is fueled by psychic power. They learn faster with higher psychic sensitivity.</description>
 		<learnRateFactor>0.1</learnRateFactor>
+		<inspirationCommonality>0</inspirationCommonality>
 		<commonality>0</commonality>
 		<isTriggered>true</isTriggered>
 		<isBad>true</isBad>
 		<iconPath>Passions/AS_PsychicPassion_Nullified</iconPath>
 		<workBoxIconPath>Passions/AS_PsychicPassionGrey</workBoxIconPath>
-		<indicatorString>✹✹</indicatorString>
+		<indicatorString>Ø</indicatorString>
 		<color>Minor</color>
 		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
 	</VSE.Passions.PassionDef>
@@ -34,11 +36,12 @@
 		<label>psychic</label>
 		<description>This passion is fueled by psychic power. They learn faster with higher psychic sensitivity.</description>
 		<learnRateFactor>1</learnRateFactor>
+		<inspirationCommonality>2.5</inspirationCommonality>
 		<commonality>0</commonality>
 		<isTriggered>true</isTriggered>
 		<iconPath>Passions/AS_PsychicPassion</iconPath>
 		<workBoxIconPath>Passions/AS_PsychicPassionGrey</workBoxIconPath>
-		<indicatorString>✹✹</indicatorString>
+		<indicatorString>★</indicatorString>
 		<color>Minor</color>
 		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
 	</VSE.Passions.PassionDef>
@@ -47,11 +50,12 @@
 		<label>psychic (major)</label>
 		<description>This passion is fueled by psychic power. They learn faster with higher psychic sensitivity.</description>
 		<learnRateFactor>1.5</learnRateFactor>
+		<inspirationCommonality>5</inspirationCommonality>
 		<commonality>0</commonality>
 		<isTriggered>true</isTriggered>
 		<iconPath>Passions/AS_PsychicPassion_Major</iconPath>
 		<workBoxIconPath>Passions/AS_PsychicPassionGrey</workBoxIconPath>
-		<indicatorString>✹✹</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Major</color>
 		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
 	</VSE.Passions.PassionDef>
@@ -60,11 +64,12 @@
 		<label>psychic (critical)</label>
 		<description>This passion is fueled by psychic power. They learn faster with higher psychic sensitivity.</description>
 		<learnRateFactor>2</learnRateFactor>
+		<inspirationCommonality>7.5</inspirationCommonality>
 		<commonality>0</commonality>
 		<isTriggered>true</isTriggered>
 		<iconPath>Passions/AS_PsychicPassion_Critical</iconPath>
 		<workBoxIconPath>Passions/AS_PsychicPassionGrey</workBoxIconPath>
-		<indicatorString>✹✹</indicatorString>
+		<indicatorString>★★★</indicatorString>
 		<color>Major</color>
 		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
 	</VSE.Passions.PassionDef>

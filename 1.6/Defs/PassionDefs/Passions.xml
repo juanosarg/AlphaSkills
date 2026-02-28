@@ -10,7 +10,7 @@
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_DrunkenPassion_Inactive</iconPath>
 		<workBoxIconPath>Passions/AS_DrunkenPassionGrey</workBoxIconPath>
-		<indicatorString>♣♣</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Major</color>
 		<blockingTraitsWithDegree>
 			<DrugDesire>-1</DrugDesire>
@@ -26,7 +26,7 @@
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_DrunkenPassion</iconPath>
 		<workBoxIconPath>Passions/AS_DrunkenPassionGrey</workBoxIconPath>
-		<indicatorString>♣♣</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Major</color>
 		<blockingTraitsWithDegree>
 			<DrugDesire>-1</DrugDesire>
@@ -39,10 +39,11 @@
 		<label>stoned</label>
 		<description>This person will get extra learning of this skill after smoking a smokeleaf joint.</description>
 		<learnRateFactor>1</learnRateFactor>
+		<inspirationCommonality>5</inspirationCommonality>
 		<commonality>0.15</commonality>
 		<iconPath>Passions/AS_StonedPassion_Inactive</iconPath>
 		<workBoxIconPath>Passions/AS_StonedPassionGrey</workBoxIconPath>
-		<indicatorString>♣♣</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Major</color>
 		<blockingTraitsWithDegree>
 			<DrugDesire>-1</DrugDesire>
@@ -55,10 +56,10 @@
 		<description>This person will get extra learning of this skill after smoking a smokeleaf joint. This person is stoned right now.</description>
 		<learnRateFactor>1.8</learnRateFactor>
 		<commonality>0</commonality>
-		
+		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_StonedPassion</iconPath>
 		<workBoxIconPath>Passions/AS_StonedPassionGrey</workBoxIconPath>
-		<indicatorString>♣♣</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Major</color>
 		<blockingTraitsWithDegree>
 			<DrugDesire>-1</DrugDesire>
@@ -76,7 +77,7 @@
 		<commonality>0.1</commonality>
 		<inspirationCommonality>0</inspirationCommonality>
 		<iconPath>Passions/AS_FrozenPassion</iconPath>
-		<indicatorString>✬</indicatorString>
+		<indicatorString>★</indicatorString>
 		<color>Disabled</color>
 		<passionToIncreaseTo>None</passionToIncreaseTo>
 		<randomForBabies>true</randomForBabies>
@@ -92,7 +93,7 @@
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_SynergisticPassion</iconPath>
 		<workBoxIconPath>Passions/AS_SynergisticPassionGrey</workBoxIconPath>
-		<indicatorString>✥✥</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<randomForBabies>true</randomForBabies>
 		<passionToIncreaseTo>Major</passionToIncreaseTo>
 		<color>Major</color>
@@ -106,7 +107,7 @@
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_NightPassion_Inactive</iconPath>
 		<workBoxIconPath>Passions/AS_NightPassionGrey</workBoxIconPath>
-		<indicatorString>☾☾</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<hediffToAdd>AS_NightPassion</hediffToAdd>
 		<color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
@@ -120,7 +121,7 @@
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_NightPassion</iconPath>
 		<workBoxIconPath>Passions/AS_NightPassionGrey</workBoxIconPath>
-		<indicatorString>☾☾</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 		<isTriggered>true</isTriggered>
@@ -134,7 +135,7 @@
 		<inspirationCommonality>2.5</inspirationCommonality>
 		<iconPath>Passions/AS_YouthPassion</iconPath>
 		<workBoxIconPath>Passions/AS_YouthPassionGrey</workBoxIconPath>
-		<indicatorString>▲▲</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<hediffToAdd>AS_YouthPassion</hediffToAdd>
 		<maxAge>15</maxAge>
 		<color>Major</color>
@@ -149,7 +150,7 @@
 		<inspirationCommonality>3.5</inspirationCommonality>
 		<iconPath>Passions/AS_DedicatedPassion</iconPath>
 		<workBoxIconPath>Passions/AS_DedicatedPassionGrey</workBoxIconPath>
-		<indicatorString>★☆</indicatorString>
+		<indicatorString>★</indicatorString>
 		<color>Minor</color>
 		<passionToIncreaseTo>Major</passionToIncreaseTo>
 	</VSE.Passions.PassionDef>
@@ -163,7 +164,7 @@
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_ObsessivePassion</iconPath>
 		<workBoxIconPath>Passions/AS_ObsessivePassionGrey</workBoxIconPath>
-		<indicatorString>✦✦</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Minor</color>
 		<passionToIncreaseTo>Major</passionToIncreaseTo>
 	</VSE.Passions.PassionDef>
@@ -176,7 +177,7 @@
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_VengefulPassion_Inactive</iconPath>
 		<workBoxIconPath>Passions/AS_VengefulPassionGrey</workBoxIconPath>
-		<indicatorString>❍❍</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<hediffToAdd>AS_VengefulPassion_Hediff</hediffToAdd>
 		<color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
@@ -191,7 +192,7 @@
 		<inspirationCommonality>7.5</inspirationCommonality>
 		<iconPath>Passions/AS_VengefulPassion</iconPath>
 		<workBoxIconPath>Passions/AS_VengefulPassionGrey</workBoxIconPath>
-		<indicatorString>❍❍</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 	</VSE.Passions.PassionDef>
@@ -205,7 +206,7 @@
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_ForbiddenPassion</iconPath>
 		<workBoxIconPath>Passions/AS_ForbiddenPassionGrey</workBoxIconPath>
-		<indicatorString>◎◎◎</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Major</color>
 		<minAge>18</minAge>
 		<hediffToAdd>AS_ForbiddenPassion</hediffToAdd>
@@ -220,7 +221,7 @@
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_NomadicPassion_Inactive</iconPath>
 		<workBoxIconPath>Passions/AS_NomadicPassionGrey</workBoxIconPath>
-		<indicatorString>➶➶</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<hediffToAdd>AS_NomadicPassion</hediffToAdd>
 		<color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
@@ -234,7 +235,7 @@
 		<inspirationCommonality>7.5</inspirationCommonality>
 		<iconPath>Passions/AS_NomadicPassion</iconPath>
 		<workBoxIconPath>Passions/AS_NomadicPassionGrey</workBoxIconPath>
-		<indicatorString>➶➶</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Major</color>
 		<isTriggered>true</isTriggered>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
@@ -245,10 +246,11 @@
 		<label>moody (interested)</label>
 		<description>Passion in this skill will fluctuate every day. Feeling interested in this skill today.</description>
 		<learnRateFactor>1</learnRateFactor>
+		<inspirationCommonality>2.5</inspirationCommonality>
 		<commonality>0.5</commonality>
 		<iconPath>Passions/AS_MoodyPassion</iconPath>
 		<workBoxIconPath>Passions/AS_MoodyPassionGrey</workBoxIconPath>
-		<indicatorString>▲▲</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<hediffToAdd>AS_MoodyPassion</hediffToAdd>		
 		<color>Minor</color>
 		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
@@ -258,11 +260,12 @@
 		<label>moody (apathetic)</label>
 		<description>Passion in this skill will fluctuate every day. Feeling apathetic towards this skill today.</description>
 		<learnRateFactor>0.1</learnRateFactor>
+		<inspirationCommonality>0</inspirationCommonality>
 		<commonality>0</commonality>
 		<isTriggered>true</isTriggered>
 		<iconPath>Passions/AS_MoodyPassion_Apathy</iconPath>
 		<workBoxIconPath>Passions/AS_MoodyPassionGrey</workBoxIconPath>
-		<indicatorString>▲▲</indicatorString>	
+		<indicatorString>Ø</indicatorString>	
 		<color>Disabled</color>
 		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
 	</VSE.Passions.PassionDef>
@@ -271,11 +274,12 @@
 		<label>moody</label>
 		<description>Passion in this skill will fluctuate every day.</description>
 		<learnRateFactor>0.35</learnRateFactor>
+		<inspirationCommonality>1</inspirationCommonality>
 		<commonality>0</commonality>
 		<isTriggered>true</isTriggered>
 		<iconPath>Passions/AS_MoodyPassion_NoPassion</iconPath>
 		<workBoxIconPath>Passions/AS_MoodyPassionGrey</workBoxIconPath>
-		<indicatorString>▲▲</indicatorString>	
+		<indicatorString>★</indicatorString>	
 		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
 	</VSE.Passions.PassionDef>
 	<VSE.Passions.PassionDef>
@@ -283,10 +287,11 @@
 		<label>moody (very interested)</label>
 		<description>Passion in this skill will fluctuate every day. Feeling very interested in this skill today.</description>
 		<learnRateFactor>1.5</learnRateFactor>
+		<inspirationCommonality>5</inspirationCommonality>
 		<commonality>0</commonality>
 		<iconPath>Passions/AS_MoodyPassion_Major</iconPath>
 		<workBoxIconPath>Passions/AS_MoodyPassionGrey</workBoxIconPath>
-		<indicatorString>▲▲</indicatorString>	
+		<indicatorString>★★</indicatorString>	
 		<color>Major</color>
 		<isTriggered>true</isTriggered>
 		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
@@ -297,9 +302,10 @@
 		<description>Passion in this skill will fluctuate every day. Feeling very passionate about this skill today.</description>
 		<learnRateFactor>2</learnRateFactor>
 		<commonality>0</commonality>
+		<inspirationCommonality>7.5</inspirationCommonality>
 		<iconPath>Passions/AS_MoodyPassion_Greater</iconPath>
 		<workBoxIconPath>Passions/AS_MoodyPassionGrey</workBoxIconPath>
-		<indicatorString>▲▲</indicatorString>	
+		<indicatorString>★★★</indicatorString>	
 		<color>Major</color>
 		<isTriggered>true</isTriggered>
 		<upgradeableInGrowthMoments>false</upgradeableInGrowthMoments>
@@ -310,10 +316,11 @@
 		<description>This person has passion for this skill, but has a hard time learning it. They will immensely enjoy all jobs related to it.</description>
 		<learnRateFactor>0</learnRateFactor>
 		<commonality>0.5</commonality>
+		<inspirationCommonality>0</inspirationCommonality>
 		<isBad>true</isBad>
 		<iconPath>Passions/AS_DuncePassion</iconPath>
 		<workBoxIconPath>Passions/AS_DuncePassionGrey</workBoxIconPath>
-		<indicatorString>▲▲</indicatorString>
+		<indicatorString>Ø</indicatorString>
 		<hediffToAdd>AS_DuncePassion</hediffToAdd>		
 		<color>Minor</color>
 		<passionToIncreaseTo>Minor</passionToIncreaseTo>
@@ -323,10 +330,11 @@
 		<label>like-minded</label>
 		<description>Opinion of other colonists with passion in this skill will be positively affected.</description>
 		<learnRateFactor>1</learnRateFactor>
+		<inspirationCommonality>2.5</inspirationCommonality>
 		<commonality>0.5</commonality>
 		<iconPath>Passions/AS_LikeMindedPassion</iconPath>
 		<workBoxIconPath>Passions/AS_LikeMindedPassionGrey</workBoxIconPath>
-		<indicatorString>▲▲</indicatorString>
+		<indicatorString>★</indicatorString>
 		<color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 	</VSE.Passions.PassionDef>
@@ -335,10 +343,11 @@
 		<label>rainy day</label>
 		<description>This skill is learned faster when raining.</description>
 		<learnRateFactor>1</learnRateFactor>
+		<inspirationCommonality>2.5</inspirationCommonality>
 		<commonality>0.15</commonality>
 		<iconPath>Passions/AS_RainyDayPassion_Off</iconPath>
 		<workBoxIconPath>Passions/AS_RainyDayPassionGrey</workBoxIconPath>
-		<indicatorString>♣♣</indicatorString>
+		<indicatorString>★</indicatorString>
 		<hediffToAdd>AS_RainyDayPassion</hediffToAdd>	
 		<color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
@@ -348,10 +357,11 @@
 		<label>rainy day (raining)</label>
 		<description>This skill is learned faster when raining.</description>
 		<learnRateFactor>2</learnRateFactor>
+		<inspirationCommonality>7.5</inspirationCommonality>
 		<commonality>0</commonality>
 		<iconPath>Passions/AS_RainyDayPassion</iconPath>
 		<workBoxIconPath>Passions/AS_RainyDayPassionGrey</workBoxIconPath>
-		<indicatorString>♣♣</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 		<isTriggered>true</isTriggered>
@@ -362,10 +372,11 @@
 		<label>competitive</label>
 		<description>Passion in this skill is driven by a desire to be the best. This person is currently the best at this skill in the colony, so they don't feel as driven to improve.</description>
 		<learnRateFactor>0.25</learnRateFactor>
+		<inspirationCommonality>0.5</inspirationCommonality>
 		<commonality>0.15</commonality>
 		<iconPath>Passions/AS_CompetitivePassion_Off</iconPath>
 		<workBoxIconPath>Passions/AS_CompetitivePassionGrey</workBoxIconPath>
-		<indicatorString>♣♣</indicatorString>
+		<indicatorString>★</indicatorString>
 		<hediffToAdd>AS_CompetitivePassion</hediffToAdd>	
 		<color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
@@ -375,10 +386,11 @@
 		<label>competitive (active)</label>
 		<description>Passion in this skill is driven by a desire to be the best.</description>
 		<learnRateFactor>2.5</learnRateFactor>
+		<inspirationCommonality>7.5</inspirationCommonality>
 		<commonality>0</commonality>	
 		<iconPath>Passions/AS_CompetitivePassion</iconPath>
 		<workBoxIconPath>Passions/AS_CompetitivePassionGrey</workBoxIconPath>
-		<indicatorString>♣♣</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 		<isTriggered>true</isTriggered>
@@ -388,11 +400,12 @@
 		<label>traumatic</label>
 		<description>This person hates this skill, but feels compelled to learn due to a traumatic experience.</description>
 		<learnRateFactor>1</learnRateFactor>
+		<inspirationCommonality>2.5</inspirationCommonality>
 		<commonality>0.25</commonality>
 		<isBad>true</isBad>
 		<iconPath>Passions/AS_TraumaticPassion</iconPath>
 		<workBoxIconPath>Passions/AS_TraumaticPassionGrey</workBoxIconPath>
-		<indicatorString>▲▲</indicatorString>
+		<indicatorString>★</indicatorString>
 		<hediffToAdd>AS_TraumaticPassion</hediffToAdd>		
 		<color>Minor</color>
 		<passionToIncreaseTo>Minor</passionToIncreaseTo>
@@ -403,10 +416,11 @@
 		<label>nudist</label>
 		<description>This person will learn this skill much faster, but only when nude.</description>
 		<learnRateFactor>0.5</learnRateFactor>
+		<inspirationCommonality>1</inspirationCommonality>
 		<commonality>0.5</commonality>
 		<iconPath>Passions/AS_NudistPassion</iconPath>
 		<workBoxIconPath>Passions/AS_NudistPassionGrey</workBoxIconPath>
-		<indicatorString>➶➶</indicatorString>
+		<indicatorString>★</indicatorString>
 		<hediffToAdd>AS_NudistPassion</hediffToAdd>
 		<color>Major</color>
 		<passionToIncreaseTo>Major</passionToIncreaseTo>
@@ -419,10 +433,11 @@
 		<label>nudist (active)</label>
 		<description>Thrives when traveling. Gains extra learning when on caravans or during expeditions. Currently away from home.</description>
 		<learnRateFactor>2</learnRateFactor>
+		<inspirationCommonality>7.5</inspirationCommonality>
 		<commonality>0</commonality>	
 		<iconPath>Passions/AS_NudistPassion_Active</iconPath>
 		<workBoxIconPath>Passions/AS_NudistPassionGrey</workBoxIconPath>
-		<indicatorString>➶➶</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Major</color>
 		<isTriggered>true</isTriggered>
 		<passionToIncreaseTo>Major</passionToIncreaseTo>
@@ -432,10 +447,11 @@
 		<label>intimate</label>
 		<description>This colonist feels more inclined to learn this skill after experiencing some lovin'.</description>
 		<learnRateFactor>0.75</learnRateFactor>
+		<inspirationCommonality>2</inspirationCommonality>
 		<commonality>0.15</commonality>
 		<iconPath>Passions/AS_IntimatePassion</iconPath>
 		<workBoxIconPath>Passions/AS_IntimatePassionGrey</workBoxIconPath>
-		<indicatorString>❍❍</indicatorString>
+		<indicatorString>★</indicatorString>
 		<color>Major</color>
 		<hediffToAdd>AS_IntimatePassion_Hediff</hediffToAdd>
 		<passionToIncreaseTo>Major</passionToIncreaseTo>
@@ -445,11 +461,12 @@
 		<label>intimate (active)</label>
 		<description>This colonist feels more inclined to learn this skill after experiencing some lovin'.</description>
 		<learnRateFactor>1.75</learnRateFactor>
+		<inspirationCommonality>6</inspirationCommonality>
 		<commonality>0</commonality>
 		<isTriggered>true</isTriggered>
 		<iconPath>Passions/AS_IntimatePassion_Active</iconPath>
 		<workBoxIconPath>Passions/AS_IntimatePassionGrey</workBoxIconPath>
-		<indicatorString>❍❍</indicatorString>
+		<indicatorString>★★</indicatorString>
 		<color>Major</color>
 		<passionToIncreaseTo>Major</passionToIncreaseTo>
 	</VSE.Passions.PassionDef>

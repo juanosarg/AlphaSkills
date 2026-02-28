@@ -11,7 +11,7 @@
 		<inspirationCommonality>3.5</inspirationCommonality>
         <iconPath>Passions/AS_SanguinePassion_Inactive</iconPath>
         <workBoxIconPath>Passions/AS_SanguinePassionGrey</workBoxIconPath>
-        <indicatorString>♥♥</indicatorString>
+        <indicatorString>★</indicatorString>
         <color>Minor</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 		<requiredGenes><li>Hemogenic</li></requiredGenes>
@@ -26,7 +26,7 @@
 		<inspirationCommonality>5</inspirationCommonality>
         <iconPath>Passions/AS_SanguinePassion</iconPath>
         <workBoxIconPath>Passions/AS_SanguinePassionGrey</workBoxIconPath>
-        <indicatorString>♥♥</indicatorString>
+        <indicatorString>★</indicatorString>
         <color>Minor</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 		<isTriggered>true</isTriggered>
@@ -41,7 +41,7 @@
 		<inspirationCommonality>3.5</inspirationCommonality>
         <iconPath>Passions/AS_ToxicPassion_Inactive</iconPath>
         <workBoxIconPath>Passions/AS_ToxicPassionGrey</workBoxIconPath>
-        <indicatorString>☣☣</indicatorString>
+        <indicatorString>★</indicatorString>
         <color>Minor</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 		<requiredGenes><li>PollutionRush</li></requiredGenes>
@@ -56,7 +56,7 @@
 		<inspirationCommonality>5</inspirationCommonality>
         <iconPath>Passions/AS_ToxicPassion</iconPath>
         <workBoxIconPath>Passions/AS_ToxicPassionGrey</workBoxIconPath>
-        <indicatorString>☣☣</indicatorString>
+        <indicatorString>★★</indicatorString>
         <color>Major</color>
 		<passionToIncreaseTo>VSE_Critical</passionToIncreaseTo>
 		<isTriggered>true</isTriggered>
