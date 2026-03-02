@@ -8,7 +8,7 @@
         <description>This passion is fueled by psychic power. They learn faster with higher psychic sensitivity.</description>
         <learnRateFactor>0.5</learnRateFactor>
 		<inspirationCommonality>1.5</inspirationCommonality>
-		<commonality>0.5</commonality>	
+		<commonality>0.1</commonality>	
         <iconPath>Passions/AS_PsychicPassion_Minor</iconPath>
         <workBoxIconPath>Passions/AS_PsychicPassionGrey</workBoxIconPath>
         <indicatorString>★</indicatorString>

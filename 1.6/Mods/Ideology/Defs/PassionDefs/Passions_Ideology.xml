@@ -38,7 +38,7 @@
 		<description>This colonist will learn this skill faster after being part of an ideological ritual (any ritual with a quality based outcome).</description>
 		<learnRateFactor>1</learnRateFactor>
 		<inspirationCommonality>2.5</inspirationCommonality>
-		<commonality>0.15</commonality>
+		<commonality>0.1</commonality>
 		<iconPath>Passions/AS_IdeologicalPassion</iconPath>
 		<workBoxIconPath>Passions/AS_IdeologicalPassionGrey</workBoxIconPath>
 		<indicatorString>★★</indicatorString>

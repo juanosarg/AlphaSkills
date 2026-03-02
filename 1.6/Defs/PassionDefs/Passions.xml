@@ -6,7 +6,7 @@
 		<label>drunken</label>
 		<description>This skill is extremely important, in a tipsy way. This person will get extra learning of this skill when drunk.</description>
 		<learnRateFactor>1</learnRateFactor>
-		<commonality>0.15</commonality>
+		<commonality>0.1</commonality>
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_DrunkenPassion_Inactive</iconPath>
 		<workBoxIconPath>Passions/AS_DrunkenPassionGrey</workBoxIconPath>
@@ -40,7 +40,7 @@
 		<description>This person will get extra learning of this skill after smoking a smokeleaf joint.</description>
 		<learnRateFactor>1</learnRateFactor>
 		<inspirationCommonality>5</inspirationCommonality>
-		<commonality>0.15</commonality>
+		<commonality>0.1</commonality>
 		<iconPath>Passions/AS_StonedPassion_Inactive</iconPath>
 		<workBoxIconPath>Passions/AS_StonedPassionGrey</workBoxIconPath>
 		<indicatorString>★★</indicatorString>
@@ -89,7 +89,7 @@
 		<learnRateFactor>1</learnRateFactor>
 		<learnRateFactorOther>1.1</learnRateFactorOther>
 		<forgetRateFactor>0.9</forgetRateFactor>
-		<commonality>0.15</commonality>
+		<commonality>0.1</commonality>
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_SynergisticPassion</iconPath>
 		<workBoxIconPath>Passions/AS_SynergisticPassionGrey</workBoxIconPath>
@@ -103,7 +103,7 @@
 		<label>night</label>
 		<description>This person acts as a night owl when considering this skill. They will get extra learning of the skill during the night (20 PM to 5 AM).</description>
 		<learnRateFactor>1</learnRateFactor>
-		<commonality>0.15</commonality>
+		<commonality>0.1</commonality>
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_NightPassion_Inactive</iconPath>
 		<workBoxIconPath>Passions/AS_NightPassionGrey</workBoxIconPath>
@@ -173,7 +173,7 @@
 		<label>vengeful</label>
 		<description>Fueled by a desire for revenge. Gains extra learning for three days when working after a colony loss (like a pawn death).</description>
 		<learnRateFactor>1</learnRateFactor>
-		<commonality>0.15</commonality>
+		<commonality>0.1</commonality>
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_VengefulPassion_Inactive</iconPath>
 		<workBoxIconPath>Passions/AS_VengefulPassionGrey</workBoxIconPath>
@@ -202,7 +202,7 @@
 		<description>Despite being discouraged or forbidden from pursuing this skill in the past, their rebellious streak makes them excel in it.</description>
 		<learnRateFactor>1.75</learnRateFactor>
 		<forgetRateFactor>0.75</forgetRateFactor>
-		<commonality>0.15</commonality>
+		<commonality>0.1</commonality>
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_ForbiddenPassion</iconPath>
 		<workBoxIconPath>Passions/AS_ForbiddenPassionGrey</workBoxIconPath>
@@ -217,7 +217,7 @@
 		<label>nomadic</label>
 		<description>Thrives when traveling. Gains extra learning when on caravans or during expeditions.</description>
 		<learnRateFactor>1</learnRateFactor>
-		<commonality>0.15</commonality>
+		<commonality>0.1</commonality>
 		<inspirationCommonality>5</inspirationCommonality>
 		<iconPath>Passions/AS_NomadicPassion_Inactive</iconPath>
 		<workBoxIconPath>Passions/AS_NomadicPassionGrey</workBoxIconPath>
@@ -247,7 +247,7 @@
 		<description>Passion in this skill will fluctuate every day. Feeling interested in this skill today.</description>
 		<learnRateFactor>1</learnRateFactor>
 		<inspirationCommonality>2.5</inspirationCommonality>
-		<commonality>0.5</commonality>
+		<commonality>0.1</commonality>
 		<iconPath>Passions/AS_MoodyPassion</iconPath>
 		<workBoxIconPath>Passions/AS_MoodyPassionGrey</workBoxIconPath>
 		<indicatorString>★★</indicatorString>
@@ -315,7 +315,7 @@
 		<label>dunce</label>
 		<description>This person has passion for this skill, but has a hard time learning it. They will immensely enjoy all jobs related to it.</description>
 		<learnRateFactor>0</learnRateFactor>
-		<commonality>0.5</commonality>
+		<commonality>0.1</commonality>
 		<inspirationCommonality>0</inspirationCommonality>
 		<isBad>true</isBad>
 		<iconPath>Passions/AS_DuncePassion</iconPath>
@@ -331,7 +331,7 @@
 		<description>Opinion of other colonists with passion in this skill will be positively affected.</description>
 		<learnRateFactor>1</learnRateFactor>
 		<inspirationCommonality>2.5</inspirationCommonality>
-		<commonality>0.5</commonality>
+		<commonality>0.1</commonality>
 		<iconPath>Passions/AS_LikeMindedPassion</iconPath>
 		<workBoxIconPath>Passions/AS_LikeMindedPassionGrey</workBoxIconPath>
 		<indicatorString>★</indicatorString>
@@ -344,7 +344,7 @@
 		<description>This skill is learned faster when raining.</description>
 		<learnRateFactor>1</learnRateFactor>
 		<inspirationCommonality>2.5</inspirationCommonality>
-		<commonality>0.15</commonality>
+		<commonality>0.1</commonality>
 		<iconPath>Passions/AS_RainyDayPassion_Off</iconPath>
 		<workBoxIconPath>Passions/AS_RainyDayPassionGrey</workBoxIconPath>
 		<indicatorString>★</indicatorString>
@@ -373,7 +373,7 @@
 		<description>Passion in this skill is driven by a desire to be the best. This person is currently the best at this skill in the colony, so they don't feel as driven to improve.</description>
 		<learnRateFactor>0.25</learnRateFactor>
 		<inspirationCommonality>0.5</inspirationCommonality>
-		<commonality>0.15</commonality>
+		<commonality>0.1</commonality>
 		<iconPath>Passions/AS_CompetitivePassion_Off</iconPath>
 		<workBoxIconPath>Passions/AS_CompetitivePassionGrey</workBoxIconPath>
 		<indicatorString>★</indicatorString>
@@ -401,7 +401,7 @@
 		<description>This person hates this skill, but feels compelled to learn due to a traumatic experience.</description>
 		<learnRateFactor>1</learnRateFactor>
 		<inspirationCommonality>2.5</inspirationCommonality>
-		<commonality>0.25</commonality>
+		<commonality>0.1</commonality>
 		<isBad>true</isBad>
 		<iconPath>Passions/AS_TraumaticPassion</iconPath>
 		<workBoxIconPath>Passions/AS_TraumaticPassionGrey</workBoxIconPath>
@@ -448,7 +448,7 @@
 		<description>This colonist feels more inclined to learn this skill after experiencing some lovin'.</description>
 		<learnRateFactor>0.75</learnRateFactor>
 		<inspirationCommonality>2</inspirationCommonality>
-		<commonality>0.15</commonality>
+		<commonality>0.1</commonality>
 		<iconPath>Passions/AS_IntimatePassion</iconPath>
 		<workBoxIconPath>Passions/AS_IntimatePassionGrey</workBoxIconPath>
 		<indicatorString>★</indicatorString>
