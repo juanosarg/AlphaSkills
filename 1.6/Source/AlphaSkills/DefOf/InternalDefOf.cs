@@ -28,10 +28,15 @@ namespace AlphaSkills
         public static VSE.Passions.PassionDef AS_MoodyPassion_Major;
         public static VSE.Passions.PassionDef AS_MoodyPassion_Greater;
 
+        [MayRequireRoyalty]
         public static VSE.Passions.PassionDef AS_PsychicPassion_Nullified;
+        [MayRequireRoyalty]
         public static VSE.Passions.PassionDef AS_PsychicPassion_Minor;
+        [MayRequireRoyalty]
         public static VSE.Passions.PassionDef AS_PsychicPassion;
+        [MayRequireRoyalty]
         public static VSE.Passions.PassionDef AS_PsychicPassion_Major;
+        [MayRequireRoyalty]
         public static VSE.Passions.PassionDef AS_PsychicPassion_Critical;
 
         public static VSE.Passions.PassionDef AS_LikeMindedPassion;
