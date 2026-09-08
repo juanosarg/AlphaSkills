@@ -317,6 +317,7 @@
     <Compile Include="Harmony\Verb_MeleeAttackDamage_DamageInfosToApply.cs" />
     <Compile Include="HediffComps\HediffComp_BlindPassion.cs" />
     <Compile Include="HediffComps\HediffComp_TranshumanistPassion.cs" />
+    <Compile Include="HediffComps\HediffComp_TraumaticPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_BlindPassion.cs" />
     <Compile Include="HediffComps\HediffComp_CompetitivePassion.cs" />
     <Compile Include="HediffComps\HediffComp_DrunkPassions.cs" />
@@ -353,6 +354,7 @@
     <Compile Include="HediffComps\Properties\HediffCompProperties_StonedPassions.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_ToxicPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_TranshumanistPassion.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_TraumaticPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_VengefulPassion.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_YouthPassion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

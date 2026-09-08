@@ -22,6 +22,10 @@ namespace AlphaSkills
 
         public static VSE.Passions.PassionDef AS_ForbiddenPassion;
 
+        public static VSE.Passions.PassionDef AS_DuncePassion;
+
+        public static VSE.Passions.PassionDef AS_TraumaticPassion;
+
         public static VSE.Passions.PassionDef AS_MoodyPassion;
         public static VSE.Passions.PassionDef AS_MoodyPassion_Apathy;
         public static VSE.Passions.PassionDef AS_MoodyPassion_NoPassion;
