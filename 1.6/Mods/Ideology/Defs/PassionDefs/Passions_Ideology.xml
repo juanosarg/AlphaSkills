@@ -19,7 +19,7 @@
     </VSE.Passions.PassionDef>
 	 <VSE.Passions.PassionDef>
           <defName>AS_PainDrivenPassion_Active</defName>
-        <label>pain-driven</label>
+        <label>pain-driven (active)</label>
         <description>This passion is fueled by pain. They learn faster when suffering from injuries or chronic pain (pain above 30%). In pain right now.</description>
         <learnRateFactor>2</learnRateFactor>
 		<commonality>0</commonality>

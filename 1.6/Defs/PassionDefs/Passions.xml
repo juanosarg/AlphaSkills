@@ -77,6 +77,7 @@
 		<commonality>0.1</commonality>
 		<inspirationCommonality>0</inspirationCommonality>
 		<iconPath>Passions/AS_FrozenPassion</iconPath>
+		<workBoxIconPath>Passions/AS_FrozenPassionGrey</workBoxIconPath>
 		<indicatorString>★</indicatorString>
 		<color>Disabled</color>
 		<passionToIncreaseTo>None</passionToIncreaseTo>
@@ -431,7 +432,7 @@
 	<VSE.Passions.PassionDef>
 		<defName>AS_NudistPassion_Active</defName>
 		<label>nudist (active)</label>
-		<description>Thrives when traveling. Gains extra learning when on caravans or during expeditions. Currently away from home.</description>
+		<description>This person will learn this skill much faster, but only when nude. Currently nude.</description>
 		<learnRateFactor>2</learnRateFactor>
 		<inspirationCommonality>7.5</inspirationCommonality>
 		<commonality>0</commonality>	
